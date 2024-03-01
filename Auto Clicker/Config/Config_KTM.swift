@@ -11,7 +11,7 @@ enum Config_KTM {
     
     static let adjustToken = "m3vi7aesgw00"
     
-    static let pushwooshToken = "22192-19DD0"
+    static let pushwooshToken = "2964F-C16D0"
     static let pushwooshAppName = "WebGeek app"
     
     static let termsLink: String = "https://www.google.com"

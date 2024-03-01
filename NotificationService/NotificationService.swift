@@ -4,7 +4,7 @@
 
 import UserNotifications
 
-class KTM_NotificationService: UNNotificationServiceExtension {
+class NotificationService: UNNotificationServiceExtension {
     
     var contentHandler: ((UNNotificationContent) -> Void)?
      var bestAttemptContent: UNMutableNotificationContent?

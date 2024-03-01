@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F7576F92A45F8940051C406"
-               BuildableName = "ForSafari_KTM.app"
-               BlueprintName = "ForSafari_KTM"
+               BuildableName = "ForSafari.app"
+               BlueprintName = "ForSafari"
                ReferencedContainer = "container:Auto Clicker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,8 +44,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7576F92A45F8940051C406"
-            BuildableName = "ForSafari_KTM.app"
-            BlueprintName = "ForSafari_KTM"
+            BuildableName = "ForSafari.app"
+            BlueprintName = "ForSafari"
             ReferencedContainer = "container:Auto Clicker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7576F92A45F8940051C406"
-            BuildableName = "ForSafari_KTM.app"
-            BlueprintName = "ForSafari_KTM"
+            BuildableName = "ForSafari.app"
+            BlueprintName = "ForSafari"
             ReferencedContainer = "container:Auto Clicker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

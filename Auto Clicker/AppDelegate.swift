@@ -52,57 +52,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 typealias AppDelegate_ATC = AppDelegate
-extension AppDelegate_ATC : PWMessagingDelegate {
+extension AppDelegate: PWMessagingDelegate {
     
     //handle token received from APNS
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        var i = 12
-        switch Bool.random() {
-        case true: if i == 21 { i += 1}
-        case false : if i == 31 { i -= 1}
-        }
+        print("didRegisterForRemoteNotificationsWithDeviceToken")
         Adjust.setDeviceToken(deviceToken)
         Pushwoosh.sharedInstance().handlePushRegistration(deviceToken)
     }
     
     //handle token receiving error
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        var i = 12
-        switch Bool.random() {
-        case true: if i == 21 { i += 1}
-        case false : if i == 31 { i -= 1}
-        }
+        print("didFailToRegisterForRemoteNotificationsWithError: \(error)")
         Pushwoosh.sharedInstance().handlePushRegistrationFailure(error);
     }
     
     //this is for iOS < 10 and for silent push notifications
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        var i = 12
-        switch Bool.random() {
-        case true: if i == 21 { i += 1}
-        case false : if i == 31 { i -= 1}
-        }
+        print("didReceiveRemoteNotification")
         Pushwoosh.sharedInstance().handlePushReceived(userInfo)
         completionHandler(.noData)
     }
     
     //this event is fired when the push gets received
     func pushwoosh(_ pushwoosh: Pushwoosh, onMessageReceived message: PWMessage) {
-        var i = 12
-        switch Bool.random() {
-        case true: if i == 21 { i += 1}
-        case false : if i == 31 { i -= 1}
-        }
         print("onMessageReceived: ", message.payload?.description ?? "error")
     }
     
     //this event is fired when a user taps the notification
     func pushwoosh(_ pushwoosh: Pushwoosh, onMessageOpened message: PWMessage) {
-        var i = 12
-        switch Bool.random() {
-        case true: if i == 21 { i += 1}
-        case false : if i == 31 { i -= 1}
-        }
         print("onMessageOpened: ", message.payload?.description ?? "error")
     }
 }

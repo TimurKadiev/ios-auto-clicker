@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F746F592A4986CF003AF18F"
-               BuildableName = "NotificationService_KTM.appex"
-               BlueprintName = "NotificationService_KTM"
+               BuildableName = "NotificationService.appex"
+               BlueprintName = "NotificationService"
                ReferencedContainer = "container:Auto Clicker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

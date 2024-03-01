@@ -32,20 +32,21 @@ class ThirdPartyServicesManager_KTM {
     }
     
     func initializePushwoosh_KTM(delegate: PWMessagingDelegate) {  lazy var ref = "refactoring"
-        //set custom delegate for push handling, in our case AppDelegate
-        Pushwoosh.sharedInstance().delegate = delegate;
-        PushNotificationManager.initialize(withAppCode: Config_KTM.pushwooshToken, appName: Config_KTM.pushwooshAppName)
-        PWInAppManager.shared().resetBusinessCasesFrequencyCapping()
-        PWGDPRManager.shared().showGDPRDeletionUI()
-        Pushwoosh.sharedInstance().registerForPushNotifications()
-        UIApplication.shared.applicationIconBadgeNumber = 0
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            Pushwoosh.sharedInstance().delegate = delegate;
+            PushNotificationManager.initialize(withAppCode: Config_KTM.pushwooshToken, appName: Config_KTM.pushwooshAppName)
+            PWInAppManager.shared().resetBusinessCasesFrequencyCapping()
+            PWGDPRManager.shared().showGDPRDeletionUI()
+            Pushwoosh.sharedInstance().registerForPushNotifications()
+            UIApplication.shared.applicationIconBadgeNumber = 0
+        }
     }
+
+        //set custom delegate for push handling, in our case AppDelegate
     
     func initializeInApps_KTM() { lazy var ref = "refactoring"
         IAPManager_MFTW.shared.setup_MFTW(completion: { isSuceess in
-            
         })
-//        IAPManager_MFTW.shared.completeAllTransactionsFunc()
     }
     
     func makeATT() {

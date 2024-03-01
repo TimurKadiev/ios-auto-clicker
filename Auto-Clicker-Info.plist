@@ -24,7 +24,7 @@
 		<string>dbapi-2</string>
 	</array>
 	<key>PW_APP_GROUPS_NAME</key>
-	<string>com.newbundle.webgeek</string>
+	<string>group.com.newbundle.webgeek</string>
 	<key>Pushwoosh_APPID</key>
 	<string>2964F-C16D0</string>
 	<key>SKAdNetworkItems</key>
@@ -275,7 +275,6 @@
 	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>fetch</string>
 		<string>remote-notification</string>
 	</array>
 </dict>

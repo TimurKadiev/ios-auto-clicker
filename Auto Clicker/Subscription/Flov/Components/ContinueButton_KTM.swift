@@ -16,7 +16,7 @@ struct ContinueButton_KTM: View {
             UIImpactFeedbackGenerator.trigger(style: .medium)
         } label: {
             ZStack(alignment: .trailing) {
-                Image("continue_image")
+                Image("safari_exit_image")
                     .zIndex(1)
                     .padding(.trailing, ScreenSize_KTM.KTM_width * 0.04)
                     .scaleEffect(Device_KTM.iPhone ? 1 : 1.8)

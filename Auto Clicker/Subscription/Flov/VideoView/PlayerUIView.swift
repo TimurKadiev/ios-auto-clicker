@@ -35,7 +35,7 @@ class PlayerUIView: UIView {
 
     private func configureVideoLooping() {
         player.play()
-        player.isMuted = false
+        player.isMuted = true 
         NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: player.currentItem, queue: .main) { [weak self] _ in
             self?.player.seek(to: CMTime.zero)
             self?.player.play()

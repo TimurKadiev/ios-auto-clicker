@@ -56,8 +56,8 @@
 		6F746F062A496646003AF18F /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6F746F052A496646003AF18F /* FirebaseCrashlytics */; };
 		6F746F082A496646003AF18F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6F746F072A496646003AF18F /* FirebaseFirestore */; };
 		6F746F4D2A496C55003AF18F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F746F442A496C50003AF18F /* GoogleService-Info.plist */; };
-		6F746F5D2A4986CF003AF18F /* KTM_NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F746F5C2A4986CF003AF18F /* KTM_NotificationService.swift */; };
-		6F746F612A4986CF003AF18F /* NotificationService_KTM.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F746F5A2A4986CF003AF18F /* NotificationService_KTM.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F746F5D2A4986CF003AF18F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F746F5C2A4986CF003AF18F /* NotificationService.swift */; };
+		6F746F612A4986CF003AF18F /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F746F5A2A4986CF003AF18F /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6F746F662A498D78003AF18F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F746F652A498D78003AF18F /* StoreKit.framework */; };
 		6F7576FD2A45F8940051C406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7576FC2A45F8940051C406 /* AppDelegate.swift */; };
 		6F7577012A45F8940051C406 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F7576FF2A45F8940051C406 /* Main.html */; };
@@ -71,8 +71,8 @@
 		6F75771C2A45F8960051C406 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75771B2A45F8960051C406 /* SafariWebExtensionHandler.swift */; };
 		6F75772F2A45F8970051C406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7577102A45F8960051C406 /* Assets.xcassets */; };
 		6F75773E2A45FF060051C406 /* ForSafari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F7577162A45F8960051C406 /* ForSafari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6F7577412A45FF060051C406 /* ForSafari_KTM.app in Resources */ = {isa = PBXBuildFile; fileRef = 6F7576FA2A45F8940051C406 /* ForSafari_KTM.app */; };
-		6F7577452A45FF2E0051C406 /* ForSafari_KTM.app in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F7576FA2A45F8940051C406 /* ForSafari_KTM.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F7577412A45FF060051C406 /* ForSafari.app in Resources */ = {isa = PBXBuildFile; fileRef = 6F7576FA2A45F8940051C406 /* ForSafari.app */; };
+		6F7577452A45FF2E0051C406 /* ForSafari.app in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F7576FA2A45F8940051C406 /* ForSafari.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6F7577472A4616C40051C406 /* UIDevice_KTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7577462A4616C30051C406 /* UIDevice_KTM.swift */; };
 		6F75775D2A48A8A30051C406 /* AlertWebExitClikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75775C2A48A8A30051C406 /* AlertWebExitClikView.swift */; };
 		6FB640972A44901B00213BE4 /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB640962A44901B00213BE4 /* SettingManager.swift */; };
@@ -178,8 +178,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6F7577452A45FF2E0051C406 /* ForSafari_KTM.app in Embed Foundation Extensions */,
-				6F746F612A4986CF003AF18F /* NotificationService_KTM.appex in Embed Foundation Extensions */,
+				6F7577452A45FF2E0051C406 /* ForSafari.app in Embed Foundation Extensions */,
+				6F746F612A4986CF003AF18F /* NotificationService.appex in Embed Foundation Extensions */,
 				6F75773E2A45FF060051C406 /* ForSafari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -283,8 +283,8 @@
 		390F67122B7CB884005A1406 /* InternetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetManager.swift; sourceTree = "<group>"; };
 		391FC5232B55434900776A14 /* AutoCounterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCounterTextField.swift; sourceTree = "<group>"; };
 		395BF82B2B69310500AC5708 /* SplitClicModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitClicModeView.swift; sourceTree = "<group>"; };
-		397D9C622B91C76B00FEC2F4 /* NotificationService_KTM.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = NotificationService_KTM.entitlements; sourceTree = "<group>"; };
-		3985DAC12B91C6ED003EA2AA /* Auto Clicker_KTM.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Auto Clicker_KTM.entitlements"; sourceTree = "<group>"; };
+		397D9C622B91C76B00FEC2F4 /* NotificationService.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
+		3985DAC12B91C6ED003EA2AA /* Auto Clicker.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Auto Clicker.entitlements"; sourceTree = "<group>"; };
 		3991DA492B92158A00BF3FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3991DA4D2B9215A000BF3FB1 /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 		3991DA4E2B9215A000BF3FB1 /* Short3 iPhone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Short3 iPhone.mp4"; sourceTree = "<group>"; };
@@ -312,11 +312,11 @@
 		6F5A27CE2A409B6F008DEBB1 /* Options_KTM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options_KTM.swift; sourceTree = "<group>"; };
 		6F5A28032A4433BD008DEBB1 /* WebButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebButtonsView.swift; sourceTree = "<group>"; };
 		6F746F442A496C50003AF18F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		6F746F5A2A4986CF003AF18F /* NotificationService_KTM.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService_KTM.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F746F5C2A4986CF003AF18F /* KTM_NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTM_NotificationService.swift; sourceTree = "<group>"; };
+		6F746F5A2A4986CF003AF18F /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F746F5C2A4986CF003AF18F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		6F746F5E2A4986CF003AF18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F746F652A498D78003AF18F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		6F7576FA2A45F8940051C406 /* ForSafari_KTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForSafari_KTM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7576FA2A45F8940051C406 /* ForSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7576FC2A45F8940051C406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F7577002A45F8940051C406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		6F7577022A45F8940051C406 /* IconForSafari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconForSafari.png; sourceTree = "<group>"; };
@@ -578,8 +578,8 @@
 		6F746F5B2A4986CF003AF18F /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
-				397D9C622B91C76B00FEC2F4 /* NotificationService_KTM.entitlements */,
-				6F746F5C2A4986CF003AF18F /* KTM_NotificationService.swift */,
+				397D9C622B91C76B00FEC2F4 /* NotificationService.entitlements */,
+				6F746F5C2A4986CF003AF18F /* NotificationService.swift */,
 				6F746F5E2A4986CF003AF18F /* Info.plist */,
 			);
 			path = NotificationService;
@@ -682,9 +682,9 @@
 			isa = PBXGroup;
 			children = (
 				6FED4C0B2A39E92600B2C457 /* Auto Clicker.app */,
-				6F7576FA2A45F8940051C406 /* ForSafari_KTM.app */,
+				6F7576FA2A45F8940051C406 /* ForSafari.app */,
 				6F7577162A45F8960051C406 /* ForSafari Extension.appex */,
-				6F746F5A2A4986CF003AF18F /* NotificationService_KTM.appex */,
+				6F746F5A2A4986CF003AF18F /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -692,7 +692,7 @@
 		6FED4C0D2A39E92600B2C457 /* Auto Clicker */ = {
 			isa = PBXGroup;
 			children = (
-				3985DAC12B91C6ED003EA2AA /* Auto Clicker_KTM.entitlements */,
+				3985DAC12B91C6ED003EA2AA /* Auto Clicker.entitlements */,
 				6F746F442A496C50003AF18F /* GoogleService-Info.plist */,
 				6FED4C802A3AFE7900B2C457 /* Auto-Clicker-Info.plist */,
 				3991DA4B2B9215A000BF3FB1 /* Subscription */,
@@ -867,9 +867,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F746F592A4986CF003AF18F /* NotificationService_KTM */ = {
+		6F746F592A4986CF003AF18F /* NotificationService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F746F622A4986CF003AF18F /* Build configuration list for PBXNativeTarget "NotificationService_KTM" */;
+			buildConfigurationList = 6F746F622A4986CF003AF18F /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
 				6F746F562A4986CF003AF18F /* Sources */,
 				6F746F572A4986CF003AF18F /* Frameworks */,
@@ -879,14 +879,14 @@
 			);
 			dependencies = (
 			);
-			name = NotificationService_KTM;
+			name = NotificationService;
 			productName = NotificationService;
-			productReference = 6F746F5A2A4986CF003AF18F /* NotificationService_KTM.appex */;
+			productReference = 6F746F5A2A4986CF003AF18F /* NotificationService.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		6F7576F92A45F8940051C406 /* ForSafari_KTM */ = {
+		6F7576F92A45F8940051C406 /* ForSafari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F7577362A45F8970051C406 /* Build configuration list for PBXNativeTarget "ForSafari_KTM" */;
+			buildConfigurationList = 6F7577362A45F8970051C406 /* Build configuration list for PBXNativeTarget "ForSafari" */;
 			buildPhases = (
 				8641BEEB6C8C09456D93D3E5 /* [CP] Check Pods Manifest.lock */,
 				6F7576F62A45F8940051C406 /* Sources */,
@@ -899,9 +899,9 @@
 			dependencies = (
 				6F7577192A45F8960051C406 /* PBXTargetDependency */,
 			);
-			name = ForSafari_KTM;
+			name = ForSafari;
 			productName = ForSafari;
-			productReference = 6F7576FA2A45F8940051C406 /* ForSafari_KTM.app */;
+			productReference = 6F7576FA2A45F8940051C406 /* ForSafari.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6F7577152A45F8960051C406 /* ForSafari Extension */ = {
@@ -1052,9 +1052,9 @@
 			projectRoot = "";
 			targets = (
 				6FED4C0A2A39E92600B2C457 /* Auto Clicker */,
-				6F7576F92A45F8940051C406 /* ForSafari_KTM */,
+				6F7576F92A45F8940051C406 /* ForSafari */,
 				6F7577152A45F8960051C406 /* ForSafari Extension */,
-				6F746F592A4986CF003AF18F /* NotificationService_KTM */,
+				6F746F592A4986CF003AF18F /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
@@ -1108,7 +1108,7 @@
 				390EC08C2B85DE2C0033476A /* InfoPlist.strings in Resources */,
 				6FED4C162A39E92800B2C457 /* Preview Assets.xcassets in Resources */,
 				6FED4C132A39E92800B2C457 /* Assets.xcassets in Resources */,
-				6F7577412A45FF060051C406 /* ForSafari_KTM.app in Resources */,
+				6F7577412A45FF060051C406 /* ForSafari.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1188,7 +1188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F746F5D2A4986CF003AF18F /* KTM_NotificationService.swift in Sources */,
+				6F746F5D2A4986CF003AF18F /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1277,7 +1277,7 @@
 /* Begin PBXTargetDependency section */
 		6F746F602A4986CF003AF18F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F746F592A4986CF003AF18F /* NotificationService_KTM */;
+			target = 6F746F592A4986CF003AF18F /* NotificationService */;
 			targetProxy = 6F746F5F2A4986CF003AF18F /* PBXContainerItemProxy */;
 		};
 		6F7577192A45F8960051C406 /* PBXTargetDependency */ = {
@@ -1287,7 +1287,7 @@
 		};
 		6F75773A2A45FDD50051C406 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F7576F92A45F8940051C406 /* ForSafari_KTM */;
+			target = 6F7576F92A45F8940051C406 /* ForSafari */;
 			targetProxy = 6F7577392A45FDD50051C406 /* PBXContainerItemProxy */;
 		};
 		6F75773C2A45FDD50051C406 /* PBXTargetDependency */ = {
@@ -1302,7 +1302,7 @@
 		};
 		6F7577432A45FF060051C406 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F7576F92A45F8940051C406 /* ForSafari_KTM */;
+			target = 6F7576F92A45F8940051C406 /* ForSafari */;
 			targetProxy = 6F7577422A45FF060051C406 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1438,7 +1438,7 @@
 		6F746F632A4986CF003AF18F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService_KTM.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1466,7 +1466,7 @@
 		6F746F642A4986CF003AF18F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService_KTM.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1752,7 +1752,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Auto Clicker/Auto Clicker_KTM.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Auto Clicker/Auto Clicker.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1790,7 +1790,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Auto Clicker/Auto Clicker_KTM.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Auto Clicker/Auto Clicker.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1824,7 +1824,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F746F622A4986CF003AF18F /* Build configuration list for PBXNativeTarget "NotificationService_KTM" */ = {
+		6F746F622A4986CF003AF18F /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F746F632A4986CF003AF18F /* Debug */,
@@ -1842,7 +1842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F7577362A45F8970051C406 /* Build configuration list for PBXNativeTarget "ForSafari_KTM" */ = {
+		6F7577362A45F8970051C406 /* Build configuration list for PBXNativeTarget "ForSafari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F7577302A45F8970051C406 /* Debug */,
