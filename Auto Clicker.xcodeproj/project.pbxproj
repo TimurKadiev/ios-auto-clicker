@@ -18,6 +18,18 @@
 		390F67132B7CB884005A1406 /* InternetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F67122B7CB884005A1406 /* InternetManager.swift */; };
 		391FC5242B55434900776A14 /* AutoCounterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391FC5232B55434900776A14 /* AutoCounterTextField.swift */; };
 		395BF82C2B69310500AC5708 /* SplitClicModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395BF82B2B69310500AC5708 /* SplitClicModeView.swift */; };
+		3991DA4A2B92158A00BF3FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA492B92158A00BF3FB1 /* AppDelegate.swift */; };
+		3991DA5E2B9215A000BF3FB1 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA4D2B9215A000BF3FB1 /* IAPManager.swift */; };
+		3991DA5F2B9215A000BF3FB1 /* Short3 iPhone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3991DA4E2B9215A000BF3FB1 /* Short3 iPhone.mp4 */; };
+		3991DA602B9215A000BF3FB1 /* ThirdPartyServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA502B9215A000BF3FB1 /* ThirdPartyServicesManager.swift */; };
+		3991DA612B9215A000BF3FB1 /* TransactionView_KTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA532B9215A000BF3FB1 /* TransactionView_KTM.swift */; };
+		3991DA622B9215A000BF3FB1 /* SelectionSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA552B9215A000BF3FB1 /* SelectionSubscriptionView.swift */; };
+		3991DA632B9215A000BF3FB1 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA572B9215A000BF3FB1 /* PlayerUIView.swift */; };
+		3991DA642B9215A000BF3FB1 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA582B9215A000BF3FB1 /* VideoView.swift */; };
+		3991DA652B9215A000BF3FB1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA5A2B9215A000BF3FB1 /* CardView.swift */; };
+		3991DA662B9215A000BF3FB1 /* ContinueButton_KTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA5B2B9215A000BF3FB1 /* ContinueButton_KTM.swift */; };
+		3991DA672B9215A000BF3FB1 /* SubscriptionScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA5D2B9215A000BF3FB1 /* SubscriptionScreenView.swift */; };
+		3991DA692B92160200BF3FB1 /* PremiumMainControllerStyle_KTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DA682B92160200BF3FB1 /* PremiumMainControllerStyle_KTM.swift */; };
 		399301292B8F89D50002D989 /* SwitchToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399301282B8F89D50002D989 /* SwitchToggleStyle.swift */; };
 		39962C632B60F0720062A0D0 /* ClosureAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39962C622B60F0710062A0D0 /* ClosureAliases.swift */; };
 		39FE65CE2B5FF953000484AB /* Gilroy-Black_KTM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39FE65CD2B5FF953000484AB /* Gilroy-Black_KTM.ttf */; };
@@ -273,6 +285,18 @@
 		395BF82B2B69310500AC5708 /* SplitClicModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitClicModeView.swift; sourceTree = "<group>"; };
 		397D9C622B91C76B00FEC2F4 /* NotificationService_KTM.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = NotificationService_KTM.entitlements; sourceTree = "<group>"; };
 		3985DAC12B91C6ED003EA2AA /* Auto Clicker_KTM.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Auto Clicker_KTM.entitlements"; sourceTree = "<group>"; };
+		3991DA492B92158A00BF3FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3991DA4D2B9215A000BF3FB1 /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		3991DA4E2B9215A000BF3FB1 /* Short3 iPhone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Short3 iPhone.mp4"; sourceTree = "<group>"; };
+		3991DA502B9215A000BF3FB1 /* ThirdPartyServicesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdPartyServicesManager.swift; sourceTree = "<group>"; };
+		3991DA532B9215A000BF3FB1 /* TransactionView_KTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionView_KTM.swift; sourceTree = "<group>"; };
+		3991DA552B9215A000BF3FB1 /* SelectionSubscriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSubscriptionView.swift; sourceTree = "<group>"; };
+		3991DA572B9215A000BF3FB1 /* PlayerUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		3991DA582B9215A000BF3FB1 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		3991DA5A2B9215A000BF3FB1 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3991DA5B2B9215A000BF3FB1 /* ContinueButton_KTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinueButton_KTM.swift; sourceTree = "<group>"; };
+		3991DA5D2B9215A000BF3FB1 /* SubscriptionScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionScreenView.swift; sourceTree = "<group>"; };
+		3991DA682B92160200BF3FB1 /* PremiumMainControllerStyle_KTM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumMainControllerStyle_KTM.swift; sourceTree = "<group>"; };
 		399301282B8F89D50002D989 /* SwitchToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchToggleStyle.swift; sourceTree = "<group>"; };
 		39962C622B60F0710062A0D0 /* ClosureAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureAliases.swift; sourceTree = "<group>"; };
 		39FE65CD2B5FF953000484AB /* Gilroy-Black_KTM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black_KTM.ttf"; sourceTree = "<group>"; };
@@ -434,6 +458,87 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		3991DA4B2B9215A000BF3FB1 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA4C2B9215A000BF3FB1 /* Config */,
+				3991DA4E2B9215A000BF3FB1 /* Short3 iPhone.mp4 */,
+				3991DA4F2B9215A000BF3FB1 /* Adjust+Pushwoosh */,
+				3991DA512B9215A000BF3FB1 /* Flov */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		3991DA4C2B9215A000BF3FB1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA4D2B9215A000BF3FB1 /* IAPManager.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3991DA4F2B9215A000BF3FB1 /* Adjust+Pushwoosh */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA502B9215A000BF3FB1 /* ThirdPartyServicesManager.swift */,
+			);
+			path = "Adjust+Pushwoosh";
+			sourceTree = "<group>";
+		};
+		3991DA512B9215A000BF3FB1 /* Flov */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA522B9215A000BF3FB1 /* Transaction */,
+				3991DA542B9215A000BF3FB1 /* Selection Subscription Screen  */,
+				3991DA562B9215A000BF3FB1 /* VideoView */,
+				3991DA592B9215A000BF3FB1 /* Components */,
+				3991DA5C2B9215A000BF3FB1 /* Subscription Screen */,
+			);
+			path = Flov;
+			sourceTree = "<group>";
+		};
+		3991DA522B9215A000BF3FB1 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA532B9215A000BF3FB1 /* TransactionView_KTM.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		3991DA542B9215A000BF3FB1 /* Selection Subscription Screen  */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA552B9215A000BF3FB1 /* SelectionSubscriptionView.swift */,
+			);
+			path = "Selection Subscription Screen ";
+			sourceTree = "<group>";
+		};
+		3991DA562B9215A000BF3FB1 /* VideoView */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA572B9215A000BF3FB1 /* PlayerUIView.swift */,
+				3991DA582B9215A000BF3FB1 /* VideoView.swift */,
+			);
+			path = VideoView;
+			sourceTree = "<group>";
+		};
+		3991DA592B9215A000BF3FB1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA5A2B9215A000BF3FB1 /* CardView.swift */,
+				3991DA5B2B9215A000BF3FB1 /* ContinueButton_KTM.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3991DA5C2B9215A000BF3FB1 /* Subscription Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3991DA5D2B9215A000BF3FB1 /* SubscriptionScreenView.swift */,
+			);
+			path = "Subscription Screen";
+			sourceTree = "<group>";
+		};
 		39962C612B60F04F0062A0D0 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,12 +695,14 @@
 				3985DAC12B91C6ED003EA2AA /* Auto Clicker_KTM.entitlements */,
 				6F746F442A496C50003AF18F /* GoogleService-Info.plist */,
 				6FED4C802A3AFE7900B2C457 /* Auto-Clicker-Info.plist */,
+				3991DA4B2B9215A000BF3FB1 /* Subscription */,
 				390EC05F2B85DE2C0033476A /* InfoPlist */,
 				390E1FEB2B7E568000DD4B8F /* Localizable */,
 				6FED4C5A2A3AFD6E00B2C457 /* Fonts */,
 				74E897592A72D05100CE2629 /* Config */,
 				6FED4C0E2A39E92600B2C457 /* KTM_AutoClickerApp.swift */,
 				390F67122B7CB884005A1406 /* InternetManager.swift */,
+				3991DA492B92158A00BF3FB1 /* AppDelegate.swift */,
 				6FED4C1C2A39E98C00B2C457 /* Auto Clicker App */,
 				6FED4C1F2A39EA7000B2C457 /* Model */,
 				6FB640952A448FF100213BE4 /* Services */,
@@ -637,6 +744,7 @@
 				6F5A27CE2A409B6F008DEBB1 /* Options_KTM.swift */,
 				6FB6409A2A44A54000213BE4 /* MultiClickModel.swift */,
 				390693E72B737BB5003F1F37 /* SubscriptionCases.swift */,
+				3991DA682B92160200BF3FB1 /* PremiumMainControllerStyle_KTM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -995,6 +1103,7 @@
 				39FE65D02B5FFA5B000484AB /* PollerOne-Regular_KTM.ttf in Resources */,
 				390E20182B7E568100DD4B8F /* Localizable.strings in Resources */,
 				39FE65CE2B5FF953000484AB /* Gilroy-Black_KTM.ttf in Resources */,
+				3991DA5F2B9215A000BF3FB1 /* Short3 iPhone.mp4 in Resources */,
 				390E1FDC2B7E3C4200DD4B8F /* Localizable in Resources */,
 				390EC08C2B85DE2C0033476A /* InfoPlist.strings in Resources */,
 				6FED4C162A39E92800B2C457 /* Preview Assets.xcassets in Resources */,
@@ -1106,14 +1215,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FED4C8A2A3B262900B2C457 /* View Extensions.swift in Sources */,
+				3991DA632B9215A000BF3FB1 /* PlayerUIView.swift in Sources */,
 				6F0F65C22A3C91830034AD53 /* WebView.swift in Sources */,
 				6FED4C282A39ED7500B2C457 /* AutoClickView.swift in Sources */,
+				3991DA4A2B92158A00BF3FB1 /* AppDelegate.swift in Sources */,
 				399301292B8F89D50002D989 /* SwitchToggleStyle.swift in Sources */,
 				6FED4C342A39EEBD00B2C457 /* AutoCounterViewModel.swift in Sources */,
 				6FED4C212A39EAAA00B2C457 /* AutoClickerTabViewComponets.swift in Sources */,
 				6F5A27C92A4044E3008DEBB1 /* ClickDisplayView.swift in Sources */,
 				6F0F65BD2A3C5D850034AD53 /* LinkCell.swift in Sources */,
+				3991DA622B9215A000BF3FB1 /* SelectionSubscriptionView.swift in Sources */,
 				6FED4C2E2A39EDEE00B2C457 /* AutoScrollViewKTM.swift in Sources */,
+				3991DA662B9215A000BF3FB1 /* ContinueButton_KTM.swift in Sources */,
 				390693E82B737BB5003F1F37 /* SubscriptionCases.swift in Sources */,
 				6FED4C2C2A39EDBC00B2C457 /* AutoScrollViewModel.swift in Sources */,
 				6FED4C2A2A39ED8100B2C457 /* AutoClickViewModel.swift in Sources */,
@@ -1128,6 +1241,7 @@
 				6F5A27CD2A409522008DEBB1 /* ScrollCases_KTM.swift in Sources */,
 				6FED4C4C2A3A173E00B2C457 /* AutoClickCell.swift in Sources */,
 				3908AFBA2B56AFB3009441FE /* PlayButtonView.swift in Sources */,
+				3991DA602B9215A000BF3FB1 /* ThirdPartyServicesManager.swift in Sources */,
 				6FED4C112A39E92600B2C457 /* AutoClickerTabView.swift in Sources */,
 				6FED4C362A39EECB00B2C457 /* AutoCounterView.swift in Sources */,
 				6F7577472A4616C40051C406 /* UIDevice_KTM.swift in Sources */,
@@ -1135,15 +1249,21 @@
 				6FB640972A44901B00213BE4 /* SettingManager.swift in Sources */,
 				6FED4C4E2A3A1A7E00B2C457 /* AutoClickCellsModel.swift in Sources */,
 				74E8975B2A72D05200CE2629 /* Config_KTM.swift in Sources */,
+				3991DA612B9215A000BF3FB1 /* TransactionView_KTM.swift in Sources */,
 				6FED4C0F2A39E92600B2C457 /* KTM_AutoClickerApp.swift in Sources */,
+				3991DA672B9215A000BF3FB1 /* SubscriptionScreenView.swift in Sources */,
+				3991DA692B92160200BF3FB1 /* PremiumMainControllerStyle_KTM.swift in Sources */,
+				3991DA5E2B9215A000BF3FB1 /* IAPManager.swift in Sources */,
 				6FED4C872A3B1E1A00B2C457 /* SafariView.swift in Sources */,
 				6FED4C832A3B1DF700B2C457 /* ClickView.swift in Sources */,
+				3991DA642B9215A000BF3FB1 /* VideoView.swift in Sources */,
 				6F0F65BA2A3C4C2D0034AD53 /*  LinkFastCollection_KTM.swift in Sources */,
 				395BF82C2B69310500AC5708 /* SplitClicModeView.swift in Sources */,
 				6FB640992A44A23600213BE4 /* ClickDisplayMultiView.swift in Sources */,
 				6F5A27CF2A409B6F008DEBB1 /* Options_KTM.swift in Sources */,
 				6F75775D2A48A8A30051C406 /* AlertWebExitClikView.swift in Sources */,
 				6FED4C1E2A39EA3E00B2C457 /* AutoClickerTabViewModel.swift in Sources */,
+				3991DA652B9215A000BF3FB1 /* CardView.swift in Sources */,
 				6F0F65B82A3C47250034AD53 /* LinksConstants_KTM.swift in Sources */,
 				6FED4C302A39EE0300B2C457 /* SettingsViewModel.swift in Sources */,
 				6FED4C492A39FC6F00B2C457 /* TabBarViewKTM.swift in Sources */,

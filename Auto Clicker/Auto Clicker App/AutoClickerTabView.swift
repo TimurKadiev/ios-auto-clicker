@@ -10,6 +10,7 @@ import SwiftUI
 struct AutoClickerTabView: View {
     @EnvironmentObject var appViewModel: AutoClickViewModel
     @StateObject var viewModel = AutoClickerTabViewModel()
+    @State var showingSubscriptionView = false
 
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -17,17 +18,29 @@ struct AutoClickerTabView: View {
                 AutoClickViewKTM()
                     .tag(AutoClickerTabViewComponets.autoClick)
                 AutoScrollViewKTM()
+                    .onChange(of: viewModel.autoClickerTabView) { newValue in
+                        if newValue == .autoScroll && !appViewModel.autoScrollProductIsEnabled {
+                            viewModel.previousTabView = .autoClick
+                            showingSubscriptionView = true
+                        }
+                    }
                     .tag(AutoClickerTabViewComponets.autoScroll)
                 AutoCounterViewKTM()
                     .tag(AutoClickerTabViewComponets.autoCounter)
-                
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
             
             TabBarViewKTM(viewModel: viewModel)
         }
-        
-        .background(Color.backgraungColor)
+        .fullScreenCover(isPresented: $showingSubscriptionView) {
+            SubscriptionScreenView(mainScren: .autoScrollProduct, closeAction: {
+                if let previousTab = viewModel.previousTabView {
+                    viewModel.autoClickerTabView = previousTab
+                }
+            })
+                .environmentObject(IAPManager_MFTW.shared)
+        }
+        .background(Color("backgraungColor"))
         .ignoresSafeArea()
     }
 }

@@ -18,10 +18,37 @@ struct AutoClickViewKTM: View {
             content
         }
         .fullScreenCover(isPresented: $appViewModel.clickModeView) {
-            ClickView(title: appViewModel.title)
+            if appViewModel.title == "MultiID" {
+                if appViewModel.multiClickProductIsEnabled {
+                    ClickView(title: appViewModel.title)
+                } else {
+                    SubscriptionScreenView(mainScren: .multiClickProduct, closeAction: appViewModel.closeClickModeView)
+                        .environmentObject(IAPManager_MFTW.shared)
+                }
+            } else if appViewModel.title == "RefreshID" {
+                if appViewModel.autoRefreshProductIsEnabled {
+                    ClickView(title: appViewModel.title)
+                } else {
+                    SubscriptionScreenView(mainScren: .autorefreshProduct, closeAction: appViewModel.closeClickModeView)
+                        .environmentObject(IAPManager_MFTW.shared)
+                }
+            } else if appViewModel.title == "SplitID" {
+                if appViewModel.splitClickProductIsEnabled {
+                    ClickView(title: appViewModel.title)
+                } else {
+                    SubscriptionScreenView(mainScren: .splitClickProduct, closeAction: appViewModel.closeClickModeView)
+                        .environmentObject(IAPManager_MFTW.shared)
+                }
+            } else {
+                ClickView(title: appViewModel.title)
+            }
         }
         .fullScreenCover(isPresented: $appViewModel.safariClickModeView) {
-            SafariView()
+            if appViewModel.safariClickProductIsEnabled {
+                SafariView()
+            } else {
+                SubscriptionScreenView(mainScren: .safariClickProduct, closeAction: appViewModel.closeClickModeView)
+            }
         }
         .fullScreenCover(isPresented: $appViewModel.showSettings, content: {
             SettingScreen_KTM()
@@ -32,6 +59,7 @@ struct AutoClickViewKTM: View {
         .transaction({ transaction in
             transaction.disablesAnimations = true
         })
+        
     }
 }
 

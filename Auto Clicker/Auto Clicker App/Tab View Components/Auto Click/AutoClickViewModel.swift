@@ -11,6 +11,40 @@ import Combine
 import Reachability
 
 class AutoClickViewModel: ObservableObject {
+    
+    @Published var multiClickProductIsEnabled: Bool = false
+    @Published var autoRefreshProductIsEnabled: Bool = false
+    @Published var splitClickProductIsEnabled: Bool = false
+    @Published var safariClickProductIsEnabled: Bool = false
+    @Published var autoScrollProductIsEnabled: Bool = false
+    
+    private var cancellables = Set<AnyCancellable>()
+    
+    
+    private func observeProductChanges() {
+        // Наблюдение за изменением isEnabled для каждого продукта
+        ProductToBuyPoeTTT.multiClic.$isEnabled
+            .assign(to: \.multiClickProductIsEnabled, on: self)
+            .store(in: &cancellables)
+        
+        ProductToBuyPoeTTT.autoRefresh.$isEnabled
+            .assign(to: \.autoRefreshProductIsEnabled, on: self)
+            .store(in: &cancellables)
+        
+        ProductToBuyPoeTTT.splitClick.$isEnabled
+            .assign(to: \.splitClickProductIsEnabled, on: self)
+            .store(in: &cancellables)
+        
+        ProductToBuyPoeTTT.safaariClick.$isEnabled
+            .assign(to: \.safariClickProductIsEnabled, on: self)
+            .store(in: &cancellables)
+        
+        ProductToBuyPoeTTT.autoScroll.$isEnabled
+            .assign(to: \.autoScrollProductIsEnabled, on: self)
+            .store(in: &cancellables)
+        
+    }
+    
     @Published var url: URL? {
         didSet {
             guard let url = url?.description else { return }
@@ -94,13 +128,6 @@ class AutoClickViewModel: ObservableObject {
             if filteredString != clickDisplayViewTextFieldMin {
                 clickDisplayViewTextFieldMin = filteredString
             }
-            
-            if let min = Int(clickDisplayViewTextFieldMin) {
-                if min > 59 {
-                    clickDisplayViewTextFieldMin = "59"
-                }
-            }
-        
         }
     }
     @Published var clickDisplayViewTextFieldSec = "1" {
@@ -122,13 +149,6 @@ class AutoClickViewModel: ObservableObject {
             if filteredString != clickDisplayViewTextFieldCount {
                 clickDisplayViewTextFieldCount = filteredString
             }
-            
-            if let count = Int(clickDisplayViewTextFieldCount) {
-                if count > 500 {
-                    clickDisplayViewTextFieldCount = "500"
-                }
-            }
-            
         }
     }
     
@@ -188,7 +208,7 @@ class AutoClickViewModel: ObservableObject {
         NotificationCenter.default.addObserver(self, selector: #selector(handleAppMinimized), name: UIApplication.didEnterBackgroundNotification, object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(handleAppRestored), name: UIApplication.didBecomeActiveNotification, object: nil)
-    
+        observeProductChanges()
     }
         
     func keybordShow() -> Bool {
