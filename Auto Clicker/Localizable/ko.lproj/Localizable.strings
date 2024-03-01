@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="자동클릭";
+"Auto Scroll"="자동 스크롤";
+"Auto Counter"="자동 카운터";
+"Settings"="설정";
+
+//MARK= AUTO CLICK
+
+"SingleID"="단일 클릭 모드";
+"SingleDescription"="사용자 정의 브라우저에서 단일 클릭 설정";
+"MultiID"="멀티 클릭 모드";
+"MultiDescription"="사용자 정의 브라우저에서 다중 클릭 설정";
+"RefreshID"="자동 새로 고침 모드";
+"RefreshDescription"="맞춤 브라우저 자동 새로고침";
+"SplitID"="분할 클릭 모드";
+"SplitDescription"="맞춤 브라우저 자동 새로고침";
+"SafariID"="사파리 클릭 모드";
+"SafariDescription"="맞춤 브라우저 자동 새로고침";
+
+//MARK= AUTO SCROLL
+
+"searchText"="URL 검색 또는 입력";
+"title1"="빠른 접근";
+
+//MARK= SETTINGS
+
+"Click Sound"="소리를 클릭하세요";
+"TermsID"="이용약관";
+"PrivacyID"="개인 정보 정책";
+
+//MARK= AUTO COUNTER
+
+"timeID"="총 시간=";
+"countID"="총 개수=";
+"min"="분";
+"sec"="비서";
+"START"="시작";
+"STOP"="멈추다";
+"SAVE"="구하다";
+
+//MARK= SAFARI CLICK
+
+"description1"="휴대폰 설정에 액세스하세요. Safari를 찾을 때까지 아래로 스크롤하십시오. 그리고 사파리를 선택하세요";
+"description2"="\"확장 프로그램\을 찾을 때까지 콘텐츠를 탐색하세요. then choose \"Extensions\"";
+"description3"="\"Auto Clicker\"라는 애플리케이션을 탭하여 선택하세요.";
+"description4"="스위치를 활성화하십시오.";
+"description5"="Safari에서 사용하고 싶다면; Safari를 열고 \"AA\" 버튼을 누르세요.";
+"description6"="\"자동 클릭\"을 선택하고 경험해보세요!";
+"buttonText"="계속하다";
+"exit"="출구";
+
+//MARK= MULTI CLICK
+
+"Repeat"="반복하다";
+"Tap"="수도꼭지";
+"Delay time="="지연시간=";
+"Back"="뒤쪽에";
+
+//MARK: Error Text
+
+"InternetError"="인터넷에 연결되지 않음";
+"valueEror"="잘못된 값";
+"Error1"="초당 최대 클릭 수는 500입니다.";
+"Error2"="클릭수는 1회 이상이어야 합니다.";
+
+//MARK: Subscription
+
+"PaymentID"="지금은 결제가 안 돼요";
+"Tap"="수도꼭지";
+"CONTINUE"="계속하다";
+"to"="에게";
+"SubscriptionText"="중요한! 내부에는 무료 콘텐츠가 없습니다! 앱의 콘텐츠와 기능에 액세스하려면 구독해야 합니다. 구독 구매 확인 시 결제가 청구됩니다.
+- 현재 기간이 종료되기 최소 24시간 전에 자동 갱신을 끄지 않으면 구독이 자동으로 갱신됩니다.
+- 갱신 비용은 구독 요금제에 따라 다릅니다. 표준 구독 계획: 1주 구독은 $ 9.99입니다. 다른 통화의 경우 가격은 App Store 가격표의 가격 수준과 일치합니다.
+- 무료 평가판 기간이 포함된 구독은 자동으로 유료 구독으로 갱신됩니다. 구매 후 계정 설정으로 이동하여 무료 평가판 자동 갱신을 취소하거나 관리할 수 있습니다.
+- 참고: 무료 평가판 기간 동안 프리미엄 구독을 구매하면 3일 무료 평가판 기간(제공된 경우) 중 사용하지 않은 부분은 소멸됩니다. - 기타 정보는 개인 정보 보호 정책 및 이용 약관을 참조하세요.";
+"Restore"="복원하다";
+"Text30ID"="연결 문제";
+"Text31ID"="인터넷 연결이 오프라인인 것 같습니다 ☹️";
+"Text32ID"="연결되었습니다!";
+"Text33ID"="인터넷 연결이 온라인인 것 같습니다 😉";

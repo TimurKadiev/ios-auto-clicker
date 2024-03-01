@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Autoklik";
+"Auto Scroll"="Automatisk rulning";
+"Auto Counter"="Auto tæller";
+"Settings"="Indstillinger";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Enkeltklik-tilstand";
+"SingleDescription"="Konfigurer et enkelt klik på din brugerdefinerede browser";
+"MultiID"="Multiklik-tilstand";
+"MultiDescription"="Indstil flere klik på din brugerdefinerede browser";
+"RefreshID"="Automatisk opdateringstilstand";
+"RefreshDescription"="Opdater automatisk din brugerdefinerede browser";
+"SplitID"="Split-klik-tilstand";
+"SplitDescription"="Opdater automatisk din brugerdefinerede browser";
+"SafariID"="Safari kliktilstand";
+"SafariDescription"="Opdater automatisk din brugerdefinerede browser";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Søg eller indtast URL";
+"title1"="Hurtig adgang";
+
+//MARK= SETTINGS
+
+"Click Sound"="Klik på Lyd";
+"TermsID"="Vilkår for brug";
+"PrivacyID"="Fortrolighedspolitik";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Samlet tid =";
+"countID"="Samlet antal =";
+"min"="min";
+"sec"="sek";
+"START"="START";
+"STOP"="HOLD OP";
+"SAVE"="GEMME";
+
+//MARK= SAFARI CLICK
+
+"description1"="Få adgang til dine telefonindstillinger; rul ned, indtil du finder Safari; og vælg Safari";
+"description2"="Naviger gennem indholdet, indtil du støder på \"Udvidelser\" then choose \"Extensions\"";
+"description3"="Vælg vores applikation kaldet \"Auto Clicker\" ved at trykke på den.";
+"description4"="Aktiver kontakten.";
+"description5"="Hvis du vil bruge det på Safari; Åbn Safari og tryk på knappen \"AA\".";
+"description6"="Vælg \"Autoklik\" og oplev det!";
+"buttonText"="Blive ved";
+"exit"="Afslut";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Gentage";
+"Tap"="Tryk på";
+"Delay time="="Forsinkelsestid =";
+"Back"="Tilbage";
+
+//MARK: Error Text
+
+"InternetError"="Ingen internetforbindelse";
+"valueEror"="Ugyldige værdier";
+"Error1"="Det maksimale antal klik pr. sekund er 500.";
+"Error2"="Antallet af klik skal være mindst 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Ingen betaling nu";
+"Tap"="Tryk på";
+"CONTINUE"="BLIVE VED";
+"to"="til";
+"SubscriptionText"="Vigtig! Der er intet gratis indhold inde! Du skal være abonnent for at få adgang til appens indhold og funktioner. Betaling opkræves ved bekræftelse af køb af abonnementet.
+- Abonnementet fornyes automatisk, medmindre automatisk fornyelse er slået fra mindst 24 timer før udgangen af ​​den aktuelle periode
+- Fornyelsesomkostningerne afhænger af abonnementsplanen. Vores standard abonnementsplaner: 1 uges abonnement er $ 9,99 For andre valutaer matcher prisen prisniveauet i App Store Pris Matrix
+- Abonnement med en gratis prøveperiode fornyes automatisk til et betalt abonnement. Du kan annullere eller administrere den automatiske fornyelse af den gratis prøveperiode ved at gå til dine kontoindstillinger efter købet
+- Bemærk venligst: Enhver ubrugt del af den tre-dages gratis prøveperiode (hvis den tilbydes) vil gå tabt ved køb af et premium-abonnement i den gratis prøveperiode - Se vores privatlivspolitik og brugsbetingelser for andre oplysninger";
+"Restore"="Gendan";
+"Text30ID"="Forbindelsesproblem";
+"Text31ID"="Internetforbindelse ser ud til at være offline ☹️";
+"Text32ID"="Du er forbundet!";
+"Text33ID"="Internetforbindelse ser ud til at være online 😉";

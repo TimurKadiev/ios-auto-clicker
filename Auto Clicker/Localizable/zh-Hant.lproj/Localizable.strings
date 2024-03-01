@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="自動點擊";
+"Auto Scroll"="自動滾螢幕";
+"Auto Counter"="自動計數器";
+"Settings"="設定";
+
+//MARK= AUTO CLICK
+
+"SingleID"="點擊模式";
+"SingleDescription"="在您的自訂瀏覽器上設定點擊";
+"MultiID"="多次點擊模式";
+"MultiDescription"="在自訂瀏覽器上設定多次點擊";
+"RefreshID"="自動刷新模式";
+"RefreshDescription"="自動刷新您的自訂瀏覽器";
+"SplitID"="分割點擊模式";
+"SplitDescription"="自動刷新您的自訂瀏覽器";
+"SafariID"="Safari 點擊模式";
+"SafariDescription"="自動刷新您的自訂瀏覽器";
+
+//MARK= AUTO SCROLL
+
+"searchText"="搜尋或輸入網址";
+"title1"="快速存取";
+
+//MARK= SETTINGS
+
+"Click Sound"="點擊聲音";
+"TermsID"="使用條款";
+"PrivacyID"="隱私權政策";
+
+//MARK= AUTO COUNTER
+
+"timeID"="總時間=";
+"countID"="總數=";
+"min"="分分鐘";
+"sec"="秒";
+"START"="開始";
+"STOP"="停止";
+"SAVE"="節省";
+
+//MARK= SAFARI CLICK
+
+"description1"="存取您的手機設定；向下捲動直到找到 Safari；並選擇Safari";
+"description2"="瀏覽內容，直到遇到“擴充功能”; then choose \"Extensions\"";
+"description3"="透過點擊選擇我們名為「自動點擊器」的應用程式。";
+"description4"="啟動開關。";
+"description5"="如果你想在 Safari 上使用它；開啟 Safari 並按下“AA”按鈕。";
+"description6"="選擇“自動點擊”並體驗吧！";
+"buttonText"="繼續";
+"exit"="出口";
+
+//MARK= MULTI CLICK
+
+"Repeat"="重複";
+"Tap"="輕敲";
+"Delay time="="延遲時間=";
+"Back"="後退";
+
+//MARK: Error Text
+
+"InternetError"="沒有網路連線";
+"valueEror"="無效值";
+"Error1"="每秒最多點擊次數為 500 次。";
+"Error2"="點擊次數必須至少為 1 次。";
+
+//MARK: Subscription
+
+"PaymentID"="現在沒有付款";
+"Tap"="輕敲";
+"CONTINUE"="繼續";
+"to"="到";
+"SubscriptionText"="重要的！裡面沒有免費內容！您必須訂閱才能存取該應用程式的內容和功能。確認購買訂閱後將收取費用。
+- 訂閱將自動續訂，除非在當前週期結束前至少 24 小時關閉自動續訂
+- 續訂費用取決於訂閱方案。我們的標準訂閱方案：1 週訂閱價格為 9.99 美元 對於其他貨幣，價格與 App Store 價格矩陣中的價格水平相符
+- 有免費試用期的訂閱會自動續訂為付費訂閱。您可以在購買後前往您的帳戶設定取消或管理免費試用的自​​動續訂
+- 請注意：在免費試用期內購買高級訂閱時，三天免費試用期（如果提供）的任何未使用部分將被沒收 - 有關任何其他信息，請參閱我們的隱私政策和使用條款";
+"Restore"="恢復";
+"Text30ID"="連線問題";
+"Text31ID"="網路連線似乎已離線 ☹️";
+"Text32ID"="您已連線！";
+"Text33ID"="網路連線似乎已在線 😉";

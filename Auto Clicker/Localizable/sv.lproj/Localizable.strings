@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Autoklicka";
+"Auto Scroll"="Auto-scrolla";
+"Auto Counter"="Autoräknare";
+"Settings"="inställningar";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Enkelklickläge";
+"SingleDescription"="Ställ in ett klick på din anpassade webbläsare";
+"MultiID"="Flerklicksläge";
+"MultiDescription"="Ställ in flera klick på din anpassade webbläsare";
+"RefreshID"="Auto Refresh Mode";
+"RefreshDescription"="Uppdatera din anpassade webbläsare automatiskt";
+"SplitID"="Split Click Mode";
+"SplitDescription"="Uppdatera din anpassade webbläsare automatiskt";
+"SafariID"="Safari klickläge";
+"SafariDescription"="Uppdatera din anpassade webbläsare automatiskt";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Sök eller ange URL";
+"title1"="Snabb åtkomst";
+
+//MARK= SETTINGS
+
+"Click Sound"="Klicka på Ljud";
+"TermsID"="Villkor";
+"PrivacyID"="Integritetspolicy";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Total tid=";
+"countID"="Totalt antal =";
+"min"="min";
+"sec"="sek";
+"START"="START";
+"STOP"="SLUTA";
+"SAVE"="SPARA";
+
+//MARK= SAFARI CLICK
+
+"description1"="Få åtkomst till dina telefoninställningar; scrolla ner tills du hittar Safari; och välj Safari";
+"description2"="Navigera genom innehållet tills du stöter på \"tillägg\"; then choose \"Extensions\"";
+"description3"="Välj vår applikation som heter \"Auto Clicker\" genom att trycka på den.";
+"description4"="Aktivera omkopplaren.";
+"description5"="Om du vill använda det på Safari; öppna Safari och tryck på \"AA\"-knappen.";
+"description6"="Välj \"Auto Click\" och upplev det!";
+"buttonText"="Fortsätta";
+"exit"="Utgång";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Upprepa";
+"Tap"="Knacka";
+"Delay time="="Fördröjningstid=";
+"Back"="Tillbaka";
+
+//MARK: Error Text
+
+"InternetError"="Ingen internetanslutning";
+"valueEror"="Ogiltiga värden";
+"Error1"="Maximalt antal klick per sekund är 500.";
+"Error2"="Antalet klick måste vara minst 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Ingen betalning nu";
+"Tap"="Knacka";
+"CONTINUE"="FORTSÄTTA";
+"to"="till";
+"SubscriptionText"="Viktig! Det finns inget gratis innehåll inuti! Du måste prenumerera för att få tillgång till appens innehåll och funktioner Betalning debiteras vid bekräftelse av köp av prenumerationen.
+- Prenumerationen kommer att förnyas automatiskt om inte automatisk förnyelse stängs av minst 24 timmar före slutet av den aktuella perioden
+- Förnyelsekostnaden beror på abonnemangsplanen. Våra standardprenumerationsplaner: 1 veckas prenumeration är $ 9,99För andra valutor matchar priset prisnivån i App Stores prismatris
+- Prenumeration med en gratis provperiod förnyas automatiskt till en betalprenumeration. Du kan avbryta eller hantera den automatiska förnyelsen av den kostnadsfria provperioden genom att gå till dina kontoinställningar efter köpet
+- Observera: Eventuell oanvänd del av den kostnadsfria provperioden på tre dagar (om den erbjuds) kommer att förverkas vid köp av en premiumprenumeration under den kostnadsfria provperioden - För annan information, se vår integritetspolicy och användarvillkor";
+"Restore"="Återställ";
+"Text30ID"="Anslutningsproblem";
+"Text31ID"="Internetanslutningen verkar vara offline ☹️";
+"Text32ID"="Du är uppkopplad!";
+"Text33ID"="Internetanslutning verkar vara online 😉";

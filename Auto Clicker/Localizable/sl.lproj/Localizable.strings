@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Samodejno drsenje";
+"Auto Counter"="Samodejni števec";
+"Settings"="nastavitve";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Način z enim klikom";
+"SingleDescription"="Nastavite en klik v brskalniku po meri";
+"MultiID"="Način z več kliki";
+"MultiDescription"="Nastavite več klikov v brskalniku po meri";
+"RefreshID"="Način samodejnega osveževanja";
+"RefreshDescription"="Samodejno osveži brskalnik po meri";
+"SplitID"="Način razdeljenega klika";
+"SplitDescription"="Samodejno osveži brskalnik po meri";
+"SafariID"="Safari Kliknite Način";
+"SafariDescription"="Samodejno osveži brskalnik po meri";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Iščite ali vnesite URL";
+"title1"="Hitri dostop";
+
+//MARK= SETTINGS
+
+"Click Sound"="Kliknite Zvok";
+"TermsID"="Pogoji uporabe";
+"PrivacyID"="Politika zasebnosti";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Skupni čas=";
+"countID"="Skupno število=";
+"min"="min";
+"sec"="sek";
+"START"="START";
+"STOP"="STOP";
+"SAVE"="SHRANI";
+
+//MARK= SAFARI CLICK
+
+"description1"="Dostop do nastavitev telefona; pomaknite se navzdol, dokler ne najdete Safarija; in izberite Safari";
+"description2"="Krmarite po vsebini, dokler ne naletite na \"Razširitve\"; then choose \"Extensions\"";
+"description3"="Izberite našo aplikacijo, imenovano \"Auto Clicker\", tako da se je dotaknete.";
+"description4"="Aktivirajte stikalo.";
+"description5"="Če ga želite uporabiti v Safariju; odprite Safari in pritisnite gumb \"AA\".";
+"description6"="Izberite \"Samodejni klik\" in izkusite!";
+"buttonText"="Nadaljuj";
+"exit"="Izhod";
+
+//MARK= MULTI CLICK
+
+"Repeat"="ponovi";
+"Tap"="Tapnite";
+"Delay time="="Čas zakasnitve=";
+"Back"="Nazaj";
+
+//MARK: Error Text
+
+"InternetError"="Ni internetne povezave";
+"valueEror"="Neveljavne vrednosti";
+"Error1"="Največje število klikov na sekundo je 500.";
+"Error2"="Število klikov mora biti vsaj 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Zdaj ni plačila";
+"Tap"="Tapnite";
+"CONTINUE"="NADALJUJ";
+"to"="do";
+"SubscriptionText"="Pomembno! Notri ni brezplačne vsebine! Za dostop do vsebin in funkcij aplikacije morate biti naročeni. Plačilo se zaračuna ob potrditvi nakupa naročnine.
+- Naročnina se bo samodejno obnovila, razen če je samodejno podaljšanje izklopljeno vsaj 24 ur pred koncem trenutnega obdobja
+- Stroški podaljšanja so odvisni od naročniškega načrta. Naši standardni naročniški načrti: 1-tedenska naročnina znaša 9,99 USD. Za druge valute se cena ujema z ravnijo cen v App Store Price Matrix
+- Naročnina z brezplačnim preskusnim obdobjem se samodejno obnovi v plačljivo naročnino. Samodejno podaljšanje brezplačnega preizkusa lahko prekličete ali upravljate tako, da po nakupu odprete nastavitve računa
+- Upoštevajte: morebitni neizkoriščeni del tridnevnega brezplačnega preskusnega obdobja (če je na voljo) bo izgubljen pri nakupu premium naročnine med brezplačnim preskusnim obdobjem - Za vse druge informacije glejte naš pravilnik o zasebnosti in pogoje uporabe";
+"Restore"="Obnovi";
+"Text30ID"="Težava s povezljivostjo";
+"Text31ID"="Internetna povezava je videti brez povezave ☹️";
+"Text32ID"="Povezani ste!";
+"Text33ID"="Zdi se, da je internetna povezava vzpostavljena 😉";

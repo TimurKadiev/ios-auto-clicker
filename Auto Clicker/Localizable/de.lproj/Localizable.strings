@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Auto Scroll";
+"Auto Counter"="Automatischer Zähler";
+"Settings"="Einstellungen";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Einzelklickmodus";
+"SingleDescription"="Richten Sie mit einem Klick Ihren benutzerdefinierten Browser ein";
+"MultiID"="Multi-Click-Modus";
+"MultiDescription"="Richten Sie Mehrfachklicks in Ihrem benutzerdefinierten Browser ein";
+"RefreshID"="Automatischer Aktualisierungsmodus";
+"RefreshDescription"="Aktualisieren Sie Ihren benutzerdefinierten Browser automatisch";
+"SplitID"="Split-Click-Modus";
+"SplitDescription"="Aktualisieren Sie Ihren benutzerdefinierten Browser automatisch";
+"SafariID"="Safari-Klickmodus";
+"SafariDescription"="Aktualisieren Sie Ihren benutzerdefinierten Browser automatisch";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Suchen Sie nach der URL oder geben Sie sie ein";
+"title1"="Schneller Zugang";
+
+//MARK= SETTINGS
+
+"Click Sound"="Klicken Sie auf Ton";
+"TermsID"="Nutzungsbedingungen";
+"PrivacyID"="Datenschutzrichtlinie";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Gesamtzeit=";
+"countID"="Gesamtzahl=";
+"min"="Mindest";
+"sec"="Sek";
+"START"="START";
+"STOP"="STOPPEN";
+"SAVE"="SPEICHERN";
+
+//MARK= SAFARI CLICK
+
+"description1"="Greifen Sie auf Ihre Telefoneinstellungen zu; Scrollen Sie nach unten, bis Sie Safari finden. und wählen Sie Safari";
+"description2"="Navigieren Sie durch den Inhalt, bis Sie auf „Erweiterungen“ stoßen. then choose \"Extensions\"";
+"description3"="Wählen Sie unsere Anwendung namens „Auto Clicker“ aus, indem Sie darauf tippen.";
+"description4"="Aktivieren Sie den Schalter.";
+"description5"="Wenn Sie es in Safari verwenden möchten; Öffnen Sie Safari und drücken Sie die Schaltfläche „AA“.";
+"description6"="Wählen Sie „Auto Click“ und erleben Sie es!";
+"buttonText"="Weitermachen";
+"exit"="Ausfahrt";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Wiederholen";
+"Tap"="Klopfen";
+"Delay time="="Verzögerungszeit=";
+"Back"="Zurück";
+
+//MARK: Error Text
+
+"InternetError"="Keine Internetverbindung";
+"valueEror"="Ungültige Werte";
+"Error1"="Die maximale Anzahl an Klicks pro Sekunde beträgt 500.";
+"Error2"="Die Anzahl der Klicks muss mindestens 1 betragen.";
+
+//MARK: Subscription
+
+"PaymentID"="Keine Zahlung jetzt";
+"Tap"="Klopfen";
+"CONTINUE"="WEITERMACHEN";
+"to"="Zu";
+"SubscriptionText"="Wichtig! Es sind keine kostenlosen Inhalte enthalten! Sie müssen ein Abonnement haben, um auf die Inhalte und Funktionen der App zugreifen zu können. Die Zahlung erfolgt bei Bestätigung des Kaufs des Abonnements.
+- Das Abonnement verlängert sich automatisch, es sei denn, die automatische Verlängerung wird mindestens 24 Stunden vor dem Ende des aktuellen Zeitraums deaktiviert
+- Die Verlängerungskosten hängen vom Abonnementplan ab. Unsere Standard-Abonnementpläne: Ein einwöchiges Abonnement kostet 9,99 $. Für andere Währungen entspricht der Preis dem Preisniveau in der App Store-Preismatrix
+- Ein Abonnement mit kostenloser Testphase verlängert sich automatisch zu einem kostenpflichtigen Abonnement. Sie können die automatische Verlängerung der kostenlosen Testversion kündigen oder verwalten, indem Sie nach dem Kauf zu Ihren Kontoeinstellungen gehen
+- Bitte beachten Sie: Beim Kauf eines Premium-Abonnements während des kostenlosen Testzeitraums verfällt der ungenutzte Teil des dreitägigen kostenlosen Testzeitraums (falls angeboten) - Weitere Informationen finden Sie in unseren Datenschutzrichtlinien und Nutzungsbedingungen";
+"Restore"="Wiederherstellen";
+"Text30ID"="Verbindungsproblem";
+"Text31ID"="Die Internetverbindung scheint offline zu sein ☹️";
+"Text32ID"="Sie sind verbunden!";
+"Text33ID"="Die Internetverbindung scheint online zu sein 😉";

@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="לחיצה אוטומטית";
+"Auto Scroll"="גלילה אוטומטית";
+"Auto Counter"="מונה אוטומטי";
+"Settings"="הגדרות";
+
+//MARK= AUTO CLICK
+
+"SingleID"="מצב קליק בודד";
+"SingleDescription"="הגדר לחיצה אחת בדפדפן המותאם אישית שלך";
+"MultiID"="מצב ריבוי קליקים";
+"MultiDescription"="הגדר קליקים מרובים בדפדפן המותאם אישית שלך";
+"RefreshID"="מצב רענון אוטומטי";
+"RefreshDescription"="רענן אוטומטית את הדפדפן המותאם אישית שלך";
+"SplitID"="מצב קליק מפוצל";
+"SplitDescription"="רענן אוטומטית את הדפדפן המותאם אישית שלך";
+"SafariID"="מצב קליק של Safari";
+"SafariDescription"="רענן אוטומטית את הדפדפן המותאם אישית שלך";
+
+//MARK= AUTO SCROLL
+
+"searchText"="חפש או הזן כתובת URL";
+"title1"="גישה מהירה";
+
+//MARK= SETTINGS
+
+"Click Sound"="לחץ על צליל";
+"TermsID"="תנאי שימוש";
+"PrivacyID"="מדיניות הפרטיות";
+
+//MARK= AUTO COUNTER
+
+"timeID"="זמן כולל=";
+"countID"="סך הכל ספירה=";
+"min"="דקה";
+"sec"="שניות";
+"START"="הַתחָלָה";
+"STOP"="תפסיק";
+"SAVE"="להציל";
+
+//MARK= SAFARI CLICK
+
+"description1"="גש להגדרות הטלפון שלך; גלול מטה עד שתאתר את Safari; ובחר Safari";
+"description2"="נווט בין התוכן עד שתתקל ב\תוספים\"; then choose \"Extensions\"";
+"description3"="בחר את האפליקציה שלנו בשם \"Auto Clicker\" על ידי הקשה עליה.";
+"description4"="הפעל את המתג.";
+"description5"="אם אתה רוצה להשתמש בו בספארי; פתח את Safari ולחץ על כפתור \"AA\".";
+"description6"="בחר \"קליק אוטומטי\" והתנסו בו!";
+"buttonText"="לְהַמשִׁיך";
+"exit"="יְצִיאָה";
+
+//MARK= MULTI CLICK
+
+"Repeat"="חזור";
+"Tap"="בֶּרֶז";
+"Delay time="="זמן עיכוב =";
+"Back"="חזור";
+
+//MARK: Error Text
+
+"InternetError"="אין חיבור אינטרנט";
+"valueEror"="ערכים לא חוקיים";
+"Error1"="מספר הקליקים המרבי לשנייה הוא 500.";
+"Error2"="מספר הקליקים חייב להיות לפחות 1.";
+
+//MARK: Subscription
+
+"PaymentID"="אין תשלום עכשיו";
+"Tap"="בֶּרֶז";
+"CONTINUE"="לְהַמשִׁיך";
+"to"="ל";
+"SubscriptionText"="חָשׁוּב! אין תוכן חינמי בפנים! עליך להיות מנוי כדי לגשת לתוכן ולתכונות של האפליקציה התשלום יחויב עם אישור רכישת המנוי.
+- המנוי יתחדש אוטומטית אלא אם החידוש האוטומטי כבוי לפחות 24 שעות לפני תום התקופה הנוכחית
+- עלות החידוש תלויה בתוכנית המנוי. תוכניות המנוי הסטנדרטיות שלנו: מנוי לשבוע הוא 9.99$ עבור מטבעות אחרים, המחיר תואם לרמת המחירים ב- App Store Price Matrix
+- מנוי עם תקופת ניסיון חינם מתחדש אוטומטית למנוי בתשלום. אתה יכול לבטל או לנהל את החידוש האוטומטי של תקופת הניסיון בחינם על ידי מעבר להגדרות החשבון שלך לאחר הרכישה
+- שימו לב: כל חלק בלתי מנוצל מתקופת הניסיון החינמית של שלושה ימים (אם מוצעת) יחולט בעת רכישת מנוי פרימיום במהלך תקופת הניסיון בחינם- לכל מידע אחר, עיין במדיניות הפרטיות ובתנאי השימוש שלנו";
+"Restore"="לשחזר";
+"Text30ID"="בעיית קישוריות";
+"Text31ID"="נראה שהחיבור לאינטרנט לא מקוון ☹️";
+"Text32ID"="אתה מחובר!";
+"Text33ID"="נראה שהחיבור לאינטרנט מקוון 😉";

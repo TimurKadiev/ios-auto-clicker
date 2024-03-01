@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click" = "Auto Click";
+"Auto Scroll" = "Auto Scroll";
+"Auto Counter"= "Auto Counter";
+"Settings"= "Settings";
+
+//MARK= AUTO CLICK
+
+"SingleID" = "Single Click Mode";
+"SingleDescription" = "Set up single click on your custom browser ";
+"MultiID"= "Multi Click Mode";
+"MultiDescription"= "Set up multi clicks on your custom browser";
+"RefreshID"= "Auto Refresh Mode";
+"RefreshDescription"= "Auto refresh your custom browser";
+"SplitID"= "Split Click Mode";
+
+"SplitDescription"= "Auto refresh your custom browser";
+"SafariID"= "Safari Click Mode";
+"SafariDescription"= "Auto refresh your custom browser";
+
+//MARK= AUTO SCROLL
+
+"searchText" = "Search or enter URL";
+"title1" = "Quick Access";
+
+//MARK= SETTINGS
+
+"Click Sound" = "Click Sound";
+"TermsID" = "Terms of Use";
+"PrivacyID" = "Privacy Policy";
+
+//MARK= AUTO COUNTER
+
+"timeID" = "Total time=";
+"countID" = "Total count=";
+"min" = "min";
+"sec" = "sec";
+"START" = "START";
+"STOP" = "STOP";
+"SAVE" = "SAVE";
+
+//MARK= SAFARI CLICK
+
+"description1" = "Access your phone settings; scroll down until you locate Safari; and choose Safari ";
+"description2" = "Navigate through the content until you come across \"Extensions\"; then choose \"Extensions\"";
+"description3" = "Select our application called \"Auto Clicker\" by tapping on it.";
+"description4" = "Activate the switch.";
+"description5" = "If you want to use it on Safari; open Safari and press the \"AA\" button.";
+"description6" = "Choose \"Auto Click\" and experience it!";
+"buttonText" = "Continue";
+"exit" = "Exit";
+
+//MARK= MULTI CLICK
+
+"Repeat" = "Repeat";
+"Tap" = "Tap";
+"Delay time=" = "Delay time=";
+"Back" = "Back";
+
+//MARK: Error Text
+
+"InternetError" = "No internet connection";
+"valueEror" = "Invalid values";
+"Error1" = "Maximum number of clicks per second is 500.";
+"Error2" = "The number of clicks must be at least 1.";
+
+//MARK: Subscription
+
+"PaymentID" = "No Payment Now";
+"Tap" = "Tap";
+"CONTINUE" = "CONTINUE";
+"to" = "to";
+"SubscriptionText" = "Important! There is no free content inside! You must be subscribed to access the app’s content and featuresPayment is charged upon confirmation of purchase of the subscription. 
+- Subscription will auto-renew unless auto-renew is turned off at least 24 hours before the end of the current period
+- The renewal cost depends on the subscription plan. Our standard subscription plans:1 week subscription is $ 9.99For other currencies, the price matches the price level in the App Store Price Matrix
+- Subscription with a free trial period automatically renews to a paid subscription. You can cancel or manage the automatic renewal of the free trial by going to your Account Settings after purchase
+- Please note: Any unused portion of the three-day free trial period (if offered) will be forfeited when purchasing a premium subscription during the free trial period- For any other information, see our privacy policy and terms of use";
+"Restore" = "Restore";
+"Text30ID" = "Connectivity Issue";
+"Text31ID" = "Internet connection appears to be offline ☹️";
+"Text32ID" = "You are connected!";
+"Text33ID" = "Internet connection appears to be online 😉";

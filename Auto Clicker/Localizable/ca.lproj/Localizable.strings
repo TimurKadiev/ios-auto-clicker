@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Clic automàtic";
+"Auto Scroll"="Desplaçament automàtic";
+"Auto Counter"="Comptador automàtic";
+"Settings"="Configuració";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Mode d'un sol clic";
+"SingleDescription"="Configureu un sol clic al vostre navegador personalitzat";
+"MultiID"="Mode de clic múltiple";
+"MultiDescription"="Configureu diversos clics al vostre navegador personalitzat";
+"RefreshID"="Mode d'actualització automàtica";
+"RefreshDescription"="Actualitzeu automàticament el vostre navegador personalitzat";
+"SplitID"="Mode de clic dividit";
+"SplitDescription"="Actualitzeu automàticament el vostre navegador personalitzat";
+"SafariID"="Mode de clic de Safari";
+"SafariDescription"="Actualitzeu automàticament el vostre navegador personalitzat";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Cerqueu o introduïu l'URL";
+"title1"="Accés ràpid";
+
+//MARK= SETTINGS
+
+"Click Sound"="Feu clic a So";
+"TermsID"="Condicions d'ús";
+"PrivacyID"="Política de privacitat";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Temps total =";
+"countID"="Recompte total =";
+"min"="min";
+"sec"="sec";
+"START"="COMENÇAR";
+"STOP"="ATURA";
+"SAVE"="DESA";
+
+//MARK= SAFARI CLICK
+
+"description1"="Accediu a la configuració del vostre telèfon; desplaceu-vos cap avall fins que trobeu Safari; i trieu Safari";
+"description2"="Navegueu pel contingut fins que trobeu \"Extensions\"; then choose \"Extensions\"";
+"description3"="Seleccioneu la nostra aplicació anomenada \"Auto Clicker\" tocant-hi.";
+"description4"="Activa l'interruptor.";
+"description5"="Si voleu utilitzar-lo a Safari; obriu Safari i premeu el botó \"AA\".";
+"description6"="Trieu \"Clic automàtic\" i experimenteu-ho!";
+"buttonText"="Continua";
+"exit"="Sortida";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Repetiu";
+"Tap"="Aixeta";
+"Delay time="="Temps de retard=";
+"Back"="esquena";
+
+//MARK: Error Text
+
+"InternetError"="Sense connexió a Internet";
+"valueEror"="Valors no vàlids";
+"Error1"="El nombre màxim de clics per segon és de 500.";
+"Error2"="El nombre de clics ha de ser com a mínim 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Sense pagament ara";
+"Tap"="Aixeta";
+"CONTINUE"="CONTINUAR";
+"to"="a";
+"SubscriptionText"="Important! No hi ha contingut gratuït dins! Heu d'estar subscrit per accedir al contingut i a les funcions de l'aplicació. El pagament es cobra en confirmar la compra de la subscripció.
+- La subscripció es renovarà automàticament tret que la renovació automàtica estigui desactivada almenys 24 hores abans del final del període actual
+- El cost de la renovació depèn del pla de subscripció. Els nostres plans de subscripció estàndard: la subscripció d'1 setmana és de 9,99 dòlars. Per a altres monedes, el preu coincideix amb el nivell de preus de la matriu de preus de l'App Store
+- La subscripció amb un període de prova gratuït es renova automàticament a una subscripció de pagament. Podeu cancel·lar o gestionar la renovació automàtica de la prova gratuïta si aneu a la configuració del vostre compte després de la compra
+- Tingueu en compte: qualsevol part no utilitzada del període de prova gratuïta de tres dies (si s'ofereix) es perdrà en comprar una subscripció premium durant el període de prova gratuïta. Per a qualsevol altra informació, consulteu la nostra política de privadesa i les condicions d'ús";
+"Restore"="Restaurar";
+"Text30ID"="Problema de connectivitat";
+"Text31ID"="La connexió a Internet sembla estar fora de línia ☹️";
+"Text32ID"="Esteu connectats!";
+"Text33ID"="La connexió a Internet sembla estar en línia 😉";

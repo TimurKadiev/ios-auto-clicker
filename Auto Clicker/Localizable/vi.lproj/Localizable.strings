@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Tự động nhấp chuột";
+"Auto Scroll"="Tự động cuộn";
+"Auto Counter"="Bộ đếm tự động";
+"Settings"="Cài đặt";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Chế độ nhấp chuột một lần";
+"SingleDescription"="Thiết lập một cú nhấp chuột trên trình duyệt tùy chỉnh của bạn";
+"MultiID"="Chế độ bấm nhiều lần";
+"MultiDescription"="Thiết lập nhiều lần nhấp chuột trên trình duyệt tùy chỉnh của bạn";
+"RefreshID"="Chế độ làm mới tự động";
+"RefreshDescription"="Tự động làm mới trình duyệt tùy chỉnh của bạn";
+"SplitID"="Chế độ nhấp chuột tách";
+"SplitDescription"="Tự động làm mới trình duyệt tùy chỉnh của bạn";
+"SafariID"="Chế độ nhấp chuột Safari";
+"SafariDescription"="Tự động làm mới trình duyệt tùy chỉnh của bạn";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Tìm kiếm hoặc nhập URL";
+"title1"="Truy cập nhanh";
+
+//MARK= SETTINGS
+
+"Click Sound"="Bấm vào âm thanh";
+"TermsID"="Điều khoản sử dụng";
+"PrivacyID"="Chính sách bảo mật";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Tổng thời gian=";
+"countID"="Tổng số=";
+"min"="phút";
+"sec"="giây";
+"START"="BẮT ĐẦU";
+"STOP"="DỪNG LẠI";
+"SAVE"="CỨU";
+
+//MARK= SAFARI CLICK
+
+"description1"="Truy cập cài đặt điện thoại của bạn; cuộn xuống cho đến khi bạn tìm thấy Safari; và chọn Safari";
+"description2"="Điều hướng qua nội dung cho đến khi bạn gặp \"Tiện ích mở rộng\"; then choose \"Extensions\"";
+"description3"="Chọn ứng dụng của chúng tôi có tên \"Auto Clicker\" bằng cách nhấn vào ứng dụng đó.";
+"description4"="Kích hoạt công tắc.";
+"description5"="Nếu bạn muốn sử dụng nó trên Safari; mở Safari và nhấn nút \"AA\".";
+"description6"="Hãy chọn \"Nhấp chuột tự động\" và trải nghiệm!";
+"buttonText"="Tiếp tục";
+"exit"="Lối ra";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Lặp lại";
+"Tap"="Vỗ nhẹ";
+"Delay time="="Thời gian trễ=";
+"Back"="Mặt sau";
+
+//MARK: Error Text
+
+"InternetError"="Không có kết nối Internet";
+"valueEror"="Giá trị không hợp lệ";
+"Error1"="Số lần nhấp tối đa mỗi giây là 500.";
+"Error2"="Số lần nhấp phải ít nhất là 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Không thanh toán ngay bây giờ";
+"Tap"="Vỗ nhẹ";
+"CONTINUE"="TIẾP TỤC";
+"to"="ĐẾN";
+"SubscriptionText"="Quan trọng! Không có nội dung miễn phí bên trong! Bạn phải đăng ký để truy cập nội dung và tính năng của ứng dụng. Thanh toán được tính khi xác nhận mua đăng ký.
+- Đăng ký sẽ tự động gia hạn trừ khi tính năng tự động gia hạn bị tắt ít nhất 24 giờ trước khi kết thúc giai đoạn hiện tại
+- Chi phí gia hạn tùy thuộc vào gói thuê bao. Gói đăng ký tiêu chuẩn của chúng tôi:đăng ký 1 tuần là 9,99 USD. Đối với các loại tiền tệ khác, giá khớp với mức giá trong Ma trận giá trên App Store
+- Đăng ký có thời gian dùng thử miễn phí sẽ tự động gia hạn thành đăng ký trả phí. Bạn có thể hủy hoặc quản lý việc tự động gia hạn bản dùng thử miễn phí bằng cách đi tới Cài đặt tài khoản sau khi mua
+- Xin lưu ý: Mọi phần chưa sử dụng trong thời gian dùng thử miễn phí ba ngày (nếu được cung cấp) sẽ bị mất khi mua đăng ký trả phí trong thời gian dùng thử miễn phí- Để biết bất kỳ thông tin nào khác, hãy xem chính sách quyền riêng tư và điều khoản sử dụng của chúng tôi";
+"Restore"="Khôi phục";
+"Text30ID"="Sự cố kết nối";
+"Text31ID"="Kết nối Internet có vẻ ngoại tuyến ☹️";
+"Text32ID"="Bạn đã được kết nối!";
+"Text33ID"="Kết nối Internet dường như đang trực tuyến 😉";

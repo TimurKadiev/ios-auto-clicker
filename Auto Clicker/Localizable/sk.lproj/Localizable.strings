@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Automatické posúvanie";
+"Auto Counter"="Automatické počítadlo";
+"Settings"="nastavenie";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Režim jedného kliknutia";
+"SingleDescription"="Nastavte si jeden klik vo svojom vlastnom prehliadači";
+"MultiID"="Režim viacerých kliknutí";
+"MultiDescription"="Nastavte si viac kliknutí vo svojom vlastnom prehliadači";
+"RefreshID"="Režim automatického obnovenia";
+"RefreshDescription"="Automaticky obnovte svoj vlastný prehliadač";
+"SplitID"="Režim rozdeleného kliknutia";
+"SplitDescription"="Automaticky obnovte svoj vlastný prehliadač";
+"SafariID"="Režim kliknutia Safari";
+"SafariDescription"="Automaticky obnovte svoj vlastný prehliadač";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Vyhľadajte alebo zadajte adresu URL";
+"title1"="Rýchly prístup";
+
+//MARK= SETTINGS
+
+"Click Sound"="Kliknite na položku Zvuk";
+"TermsID"="Podmienky používania";
+"PrivacyID"="Zásady ochrany osobných údajov";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Celkový čas =";
+"countID"="Celkový počet =";
+"min"="min";
+"sec"="sek";
+"START"="ŠTART";
+"STOP"="STOP";
+"SAVE"="ULOŽIŤ";
+
+//MARK= SAFARI CLICK
+
+"description1"="Prístup k nastaveniam telefónu; prejdite nadol, kým nenájdete Safari; a vyberte Safari";
+"description2"="Prechádzajte obsahom, kým nenarazíte na \"Rozšírenia\"; then choose \"Extensions\"";
+"description3"="Vyberte našu aplikáciu s názvom \"Auto Clicker\" klepnutím na ňu.";
+"description4"="Aktivujte spínač.";
+"description5"="Ak ho chcete použiť na Safari; otvorte Safari a stlačte tlačidlo \"AA\".";
+"description6"="Vyberte si \"Automatické kliknutie\" a zažite to!";
+"buttonText"="ďalej";
+"exit"="VÝCHOD";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Opakujte";
+"Tap"="Klepnite";
+"Delay time="="Čas oneskorenia =";
+"Back"="späť";
+
+//MARK: Error Text
+
+"InternetError"="Žiadne internetové pripojenie";
+"valueEror"="Neplatné hodnoty";
+"Error1"="Maximálny počet kliknutí za sekundu je 500.";
+"Error2"="Počet kliknutí musí byť aspoň 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Žiadna platba teraz";
+"Tap"="Klepnite";
+"CONTINUE"="ĎALEJ";
+"to"="do";
+"SubscriptionText"="Dôležité! Vo vnútri nie je žiadny bezplatný obsah! Na prístup k obsahu a funkciám aplikácie sa musíte prihlásiť. Platba sa účtuje po potvrdení nákupu predplatného.
+- Predplatné sa automaticky obnoví, pokiaľ sa automatické obnovenie nevypne aspoň 24 hodín pred koncom aktuálneho obdobia
+- Náklady na obnovenie závisia od plánu predplatného. Naše štandardné plány predplatného: 1 týždenné predplatné je 9,99 USD V prípade ostatných mien sa cena zhoduje s cenovou úrovňou v cenovej matici App Store
+- Predplatné s bezplatným skúšobným obdobím sa automaticky obnoví na platené predplatné. Automatické obnovenie bezplatnej skúšobnej verzie môžete zrušiť alebo spravovať tak, že po zakúpení prejdete do Nastavenia účtu
+- Upozorňujeme: Akákoľvek nevyužitá časť trojdňového bezplatného skúšobného obdobia (ak je ponúkaná) prepadne pri zakúpení prémiového predplatného počas bezplatného skúšobného obdobia. Ďalšie informácie nájdete v našich zásadách ochrany osobných údajov a podmienkach používania";
+"Restore"="Obnoviť";
+"Text30ID"="Problém s pripojením";
+"Text31ID"="Zdá sa, že internetové pripojenie je offline ☹️";
+"Text32ID"="Ste pripojení!";
+"Text33ID"="Zdá sa, že internetové pripojenie je online 😉";

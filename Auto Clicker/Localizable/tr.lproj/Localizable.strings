@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Otomatik Tıklama";
+"Auto Scroll"="Otomatik kaydırma";
+"Auto Counter"="Otomatik Sayaç";
+"Settings"="Ayarlar";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Tek Tıklama Modu";
+"SingleDescription"="Özel tarayıcınıza tek tıklamayla kurulum yapın";
+"MultiID"="Çoklu Tıklama Modu";
+"MultiDescription"="Özel tarayıcınızda çoklu tıklamayı ayarlayın";
+"RefreshID"="Otomatik Yenileme Modu";
+"RefreshDescription"="Özel tarayıcınızı otomatik olarak yenileyin";
+"SplitID"="Bölünmüş Tıklama Modu";
+"SplitDescription"="Özel tarayıcınızı otomatik olarak yenileyin";
+"SafariID"="Safari Tıklama Modu";
+"SafariDescription"="Özel tarayıcınızı otomatik olarak yenileyin";
+
+//MARK= AUTO SCROLL
+
+"searchText"="URL'yi arayın veya girin";
+"title1"="Hızlı erişim";
+
+//MARK= SETTINGS
+
+"Click Sound"="Ses'e tıklayın";
+"TermsID"="Kullanım Şartları";
+"PrivacyID"="Gizlilik Politikası";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Toplam süre=";
+"countID"="Toplam sayım=";
+"min"="dk.";
+"sec"="saniye";
+"START"="BAŞLANGIÇ";
+"STOP"="DURMAK";
+"SAVE"="KAYDETMEK";
+
+//MARK= SAFARI CLICK
+
+"description1"="Telefon ayarlarınıza erişin; Safari'yi bulana kadar aşağı kaydırın; ve Safari'yi seçin";
+"description2"="\"Uzantılar\" ile karşılaşana kadar içerikte gezinin then choose \"Extensions\"";
+"description3"="Üzerine dokunarak \"Otomatik Tıklayıcı\" adlı uygulamamızı seçin.";
+"description4"="Anahtarı etkinleştirin.";
+"description5"="Safari’de kullanmak istiyorsanız; Safari'yi açın ve \"AA\" düğmesine basın.";
+"description6"="\"Otomatik Tıklama\"yı seçin ve deneyimleyin!";
+"buttonText"="Devam etmek";
+"exit"="çıkış";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Tekrarlamak";
+"Tap"="Musluk";
+"Delay time="="Gecikme süresi=";
+"Back"="Geri";
+
+//MARK: Error Text
+
+"InternetError"="İnternet bağlantısı yok";
+"valueEror"="Geçersiz değerler";
+"Error1"="Saniyedeki maksimum tıklama sayısı 500'dür.";
+"Error2"="Tıklama sayısı en az 1 olmalıdır.";
+
+//MARK: Subscription
+
+"PaymentID"="Şimdi Ödeme Yok";
+"Tap"="Musluk";
+"CONTINUE"="DEVAM ETMEK";
+"to"="ile";
+"SubscriptionText"="Önemli! İçeride ücretsiz içerik yok! Uygulamanın içeriğine ve özelliklerine erişebilmek için abone olmanız gerekir. Ödeme, aboneliğin satın alınmasının onaylanması üzerine tahsil edilir.
+- Otomatik yenileme, cari dönemin bitiminden en az 24 saat önce kapatılmadığı sürece abonelik otomatik olarak yenilenecektir.
+- Yenileme maliyeti abonelik planına bağlıdır. Standart abonelik planlarımız: 1 haftalık abonelik 9,99$'dır. Diğer para birimleri için fiyat, App Store Fiyat Matrisindeki fiyat düzeyiyle aynıdır.
+- Ücretsiz deneme süresi olan abonelik otomatik olarak ücretli aboneliğe yenilenir. Satın alma işleminden sonra Hesap Ayarlarınıza giderek ücretsiz deneme sürümünün otomatik olarak yenilenmesini iptal edebilir veya yönetebilirsiniz.
+- Lütfen unutmayın: Ücretsiz deneme süresi boyunca premium abonelik satın alındığında, üç günlük ücretsiz deneme süresinin (eğer teklif edilirse) kullanılmayan kısmı kaybedilecektir. - Diğer tüm bilgiler için gizlilik politikamıza ve kullanım koşullarımıza bakın.";
+"Restore"="Eski haline getirmek";
+"Text30ID"="Bağlantı Sorunu";
+"Text31ID"="İnternet bağlantısı çevrimdışı görünüyor ☹️";
+"Text32ID"="Bağlandınız!";
+"Text33ID"="İnternet bağlantısı çevrimiçi görünüyor 😉";

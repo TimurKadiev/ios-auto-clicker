@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6E459C69-EFF4-400E-BA42-C9ECE963F73C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F751F5AE-1731-4F24-87AE-24507814591F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Auto Clicker/Auto Clicker App/Tab View Components/Auto Click/AutoClickCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E61C4248-C5F3-4E75-B00B-5503B3F3AF9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Auto Clicker/Subscription/Flow/configs/IAPHandler_ATC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "validateSubscriptions_ATC(productIdentifiers:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E61C4248-C5F3-4E75-B00B-5503B3F3AF9C - 3ec54fe3dc45ae20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Auto_Clicker.IAPManager_ATC.validateSubscriptions_ATC(productIdentifiers: Swift.Array&lt;Swift.String&gt;, completion: (Swift.Dictionary&lt;Swift.String, Swift.Bool&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Auto Clicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/picamosntr/Downloads/ios-auto-clicker-2%202/Auto%20Clicker/Subscription/Flow/configs/IAPHandler_ATC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "936">
+               </Location>
+               <Location
+                  uuid = "E61C4248-C5F3-4E75-B00B-5503B3F3AF9C - 9a43c9e176b861a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Auto_Clicker.IAPManager_ATC.validateSubscriptions_ATC(productIdentifiers: Swift.Array&lt;Swift.String&gt;, completion: (Swift.Dictionary&lt;Swift.String, Swift.Bool&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Auto Clicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/picamosntr/Downloads/ios-auto-clicker-2%202/Auto%20Clicker/Subscription/Flow/configs/IAPHandler_ATC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "281"
+                  endingLineNumber = "281"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A95ABDD9-D366-4ABB-9420-91899E0424A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Auto Clicker/Subscription/Flow/configs/IAPHandler_ATC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
+            landmarkName = "validateSubscriptions_ATC(productIdentifiers:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

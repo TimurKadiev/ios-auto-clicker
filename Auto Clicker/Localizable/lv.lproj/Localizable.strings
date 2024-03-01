@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Automātiskā ritināšana";
+"Auto Counter"="Auto skaitītājs";
+"Settings"="Iestatījumi";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Viena klikšķa režīms";
+"SingleDescription"="Iestatiet vienu klikšķi savā pielāgotajā pārlūkprogrammā";
+"MultiID"="Vairāku klikšķu režīms";
+"MultiDescription"="Savā pielāgotajā pārlūkprogrammā iestatiet vairākus klikšķus";
+"RefreshID"="Automātiskās atsvaidzināšanas režīms";
+"RefreshDescription"="Automātiski atsvaidziniet savu pielāgoto pārlūkprogrammu";
+"SplitID"="Sadalītā klikšķa režīms";
+"SplitDescription"="Automātiski atsvaidziniet savu pielāgoto pārlūkprogrammu";
+"SafariID"="Safari klikšķa režīms";
+"SafariDescription"="Automātiski atsvaidziniet savu pielāgoto pārlūkprogrammu";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Meklējiet vai ievadiet URL";
+"title1"="Ātrā piekļuve";
+
+//MARK= SETTINGS
+
+"Click Sound"="Noklikšķiniet uz Skaņa";
+"TermsID"="Lietošanas noteikumi";
+"PrivacyID"="Privātuma politika";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Kopējais laiks =";
+"countID"="Kopējais skaits =";
+"min"="min";
+"sec"="sek";
+"START"="SĀKT";
+"STOP"="STOP";
+"SAVE"="SAGLABĀT";
+
+//MARK= SAFARI CLICK
+
+"description1"="Piekļūstiet tālruņa iestatījumiem; ritiniet uz leju, līdz atrodat Safari; un izvēlieties Safari";
+"description2"="Pārvietojieties pa saturu, līdz atrodat \"Paplašinājumi\".; then choose \"Extensions\"";
+"description3"="Atlasiet mūsu lietojumprogrammu ar nosaukumu \"Auto Clicker\", pieskaroties tai.";
+"description4"="Aktivizējiet slēdzi.";
+"description5"="Ja vēlaties to izmantot pārlūkprogrammā Safari; atveriet Safari un nospiediet pogu \"AA\".";
+"description6"="Izvēlieties \"Auto Click\" un izbaudiet to!";
+"buttonText"="Turpināt";
+"exit"="Izeja";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Atkārtojiet";
+"Tap"="Krāns";
+"Delay time="="Aizkaves laiks =";
+"Back"="Atpakaļ";
+
+//MARK: Error Text
+
+"InternetError"="Nav interneta savienojuma";
+"valueEror"="Nederīgas vērtības";
+"Error1"="Maksimālais klikšķu skaits sekundē ir 500.";
+"Error2"="Klikšķu skaitam ir jābūt vismaz 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Tagad nav jāmaksā";
+"Tap"="Krāns";
+"CONTINUE"="TURPINĀT";
+"to"="uz";
+"SubscriptionText"="Svarīgs! Iekšā nav bezmaksas satura! Lai piekļūtu lietotnes saturam un funkcijām, jums ir jābūt abonētam. Maksa tiek iekasēta pēc abonementa iegādes apstiprinājuma.
+- Abonements tiks automātiski atjaunots, ja vien automātiskā atjaunošana netiks izslēgta vismaz 24 stundas pirms pašreizējā perioda beigām
+- Atjaunošanas izmaksas ir atkarīgas no abonēšanas plāna. Mūsu standarta abonēšanas plāni: vienas nedēļas abonements ir USD 9,99 Citām valūtām cena atbilst cenu līmenim App Store cenu matricā.
+- Abonements ar bezmaksas izmēģinājuma periodu automātiski tiek atjaunots uz maksas abonementu. Varat atcelt vai pārvaldīt bezmaksas izmēģinājuma perioda automātisko atjaunošanu, pēc pirkuma atverot sava konta iestatījumus
+- Lūdzu, ņemiet vērā: jebkura neizmantotā trīs dienu bezmaksas izmēģinājuma perioda daļa (ja tiek piedāvāta) tiks zaudēta, iegādājoties premium klases abonementu bezmaksas izmēģinājuma perioda laikā. Lai iegūtu citu informāciju, skatiet mūsu konfidencialitātes politiku un lietošanas noteikumus.";
+"Restore"="Atjaunot";
+"Text30ID"="Savienojamības problēma";
+"Text31ID"="Šķiet, ka interneta savienojums ir bezsaistē ☹️";
+"Text32ID"="Jūs esat savienots!";
+"Text33ID"="Šķiet, ka interneta savienojums ir tiešsaistē 😉";

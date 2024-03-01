@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoKlik";
+"Auto Scroll"="Tatal Auto";
+"Auto Counter"="Kaunter Auto";
+"Settings"="tetapan";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Mod Satu Klik";
+"SingleDescription"="Sediakan satu klik pada penyemak imbas tersuai anda";
+"MultiID"="Mod Berbilang Klik";
+"MultiDescription"="Sediakan berbilang klik pada penyemak imbas tersuai anda";
+"RefreshID"="Mod Auto Refresh";
+"RefreshDescription"="Muat semula automatik penyemak imbas tersuai anda";
+"SplitID"="Mod Klik Pisah";
+"SplitDescription"="Muat semula automatik penyemak imbas tersuai anda";
+"SafariID"="Mod Klik Safari";
+"SafariDescription"="Muat semula automatik penyemak imbas tersuai anda";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Cari atau masukkan URL";
+"title1"="Akses Pantas";
+
+//MARK= SETTINGS
+
+"Click Sound"="Klik Bunyi";
+"TermsID"="Syarat Penggunaan";
+"PrivacyID"="Dasar Privasi";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Jumlah masa=";
+"countID"="Jumlah kiraan=";
+"min"="min";
+"sec"="sec";
+"START"="MULAKAN";
+"STOP"="BERHENTI";
+"SAVE"="JIMAT";
+
+//MARK= SAFARI CLICK
+
+"description1"="Akses tetapan telefon anda; tatal ke bawah sehingga anda mencari Safari; dan pilih Safari";
+"description2"="Navigasi kandungan sehingga anda menemui \"Sambungan\"; then choose \"Extensions\"";
+"description3"="Pilih aplikasi kami yang dipanggil \"Auto Clicker\" dengan mengetik padanya.";
+"description4"="Aktifkan suis.";
+"description5"="Jika anda ingin menggunakannya di Safari; buka Safari dan tekan butang \"AA\".";
+"description6"="Pilih \"Auto Klik\" dan alaminya!";
+"buttonText"="teruskan";
+"exit"="Keluar";
+
+//MARK= MULTI CLICK
+
+"Repeat"="ulang";
+"Tap"="Ketik";
+"Delay time="="Masa kelewatan=";
+"Back"="belakang";
+
+//MARK: Error Text
+
+"InternetError"="Tiada sambungan internet";
+"valueEror"="Nilai tidak sah";
+"Error1"="Bilangan maksimum klik sesaat ialah 500.";
+"Error2"="Bilangan klik mestilah sekurang-kurangnya 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Tiada Pembayaran Sekarang";
+"Tap"="Ketik";
+"CONTINUE"="TERUSKAN";
+"to"="kepada";
+"SubscriptionText"="Penting! Tiada kandungan percuma di dalamnya! Anda mesti melanggan untuk mengakses kandungan dan ciri apl. Bayaran dicaj selepas pengesahan pembelian langganan.
+- Langganan akan diperbaharui secara automatik melainkan pembaharuan automatik dimatikan sekurang-kurangnya 24 jam sebelum tamat tempoh semasa
+- Kos pembaharuan bergantung pada pelan langganan. Pelan langganan standard kami:Langganan 1 minggu ialah $ 9.99Untuk mata wang lain, harga sepadan dengan tahap harga dalam Matriks Harga App Store
+- Langganan dengan tempoh percubaan percuma diperbaharui secara automatik kepada langganan berbayar. Anda boleh membatalkan atau mengurus pembaharuan automatik percubaan percuma dengan pergi ke Tetapan Akaun anda selepas pembelian
+- Sila ambil perhatian: Mana-mana bahagian yang tidak digunakan dalam tempoh percubaan percuma tiga hari (jika ditawarkan) akan dibatalkan apabila membeli langganan premium semasa tempoh percubaan percuma- Untuk sebarang maklumat lain, lihat dasar privasi dan syarat penggunaan kami";
+"Restore"="Pulihkan";
+"Text30ID"="Isu Ketersambungan";
+"Text31ID"="Sambungan Internet kelihatan di luar talian ☹️";
+"Text32ID"="Anda disambungkan!";
+"Text33ID"="Sambungan internet nampaknya dalam talian 😉";

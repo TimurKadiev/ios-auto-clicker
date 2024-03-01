@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Automatsko pomicanje";
+"Auto Counter"="Automatski brojač";
+"Settings"="postavke";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Način rada s jednim klikom";
+"SingleDescription"="Postavite jedan klik na svoj prilagođeni preglednik";
+"MultiID"="Način rada s više klikova";
+"MultiDescription"="Postavite višestruke klikove na prilagođeni preglednik";
+"RefreshID"="Način automatskog osvježavanja";
+"RefreshDescription"="Automatski osvježite prilagođeni preglednik";
+"SplitID"="Način podijeljenog klika";
+"SplitDescription"="Automatski osvježite prilagođeni preglednik";
+"SafariID"="Safari Pritisnite Mode";
+"SafariDescription"="Automatski osvježite prilagođeni preglednik";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Pretražite ili unesite URL";
+"title1"="Brzi pristup";
+
+//MARK= SETTINGS
+
+"Click Sound"="Pritisnite Zvuk";
+"TermsID"="Uvjeti korištenja";
+"PrivacyID"="Politika privatnosti";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Ukupno vrijeme=";
+"countID"="Ukupan broj=";
+"min"="min";
+"sec"="sek";
+"START"="POČETAK";
+"STOP"="STOP";
+"SAVE"="UŠTEDJETI";
+
+//MARK= SAFARI CLICK
+
+"description1"="Pristupite postavkama svog telefona; pomaknite se prema dolje dok ne pronađete Safari; i odaberite Safari";
+"description2"="Krećite se kroz sadržaj dok ne naiđete na \"Proširenja\"; then choose \"Extensions\"";
+"description3"="Odaberite našu aplikaciju pod nazivom \"Auto Clicker\" dodirom na nju.";
+"description4"="Aktivirajte prekidač.";
+"description5"="Ako ga želite koristiti na Safariju; otvorite Safari i pritisnite tipku \"AA\".";
+"description6"="Odaberite \"Auto Click\" i doživite to!";
+"buttonText"="Nastaviti";
+"exit"="Izlaz ";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Ponoviti";
+"Tap"="Dodirnite";
+"Delay time="="Vrijeme odgode=";
+"Back"="leđa";
+
+//MARK: Error Text
+
+"InternetError"="Nema internetske veze";
+"valueEror"="Nevažeće vrijednosti";
+"Error1"="Maksimalan broj klikova u sekundi je 500.";
+"Error2"="Broj klikova mora biti najmanje 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Sada nema plaćanja";
+"Tap"="Dodirnite";
+"CONTINUE"="NASTAVITI";
+"to"="do";
+"SubscriptionText"="Važno! Unutra nema besplatnog sadržaja! Morate biti pretplaćeni da biste pristupili sadržaju i značajkama aplikacije. Plaćanje se naplaćuje nakon potvrde kupnje pretplate.
+- Pretplata će se automatski obnoviti osim ako se automatska obnova ne isključi najmanje 24 sata prije kraja trenutnog razdoblja
+- Cijena obnove ovisi o planu pretplate. Naši standardni planovi pretplate: jednotjedna pretplata iznosi 9,99 USD. Za druge valute cijena odgovara razini cijena u App Store Matrici cijena
+- Pretplata s besplatnim probnim razdobljem automatski se obnavlja na plaćenu pretplatu. Možete otkazati ili upravljati automatskom obnovom besplatnog probnog razdoblja odlaskom na postavke računa nakon kupnje
+- Imajte na umu: svaki neiskorišteni dio trodnevnog besplatnog probnog razdoblja (ako je ponuđeno) bit će izgubljen prilikom kupnje premium pretplate tijekom besplatnog probnog razdoblja- Za sve ostale informacije pogledajte naša pravila o privatnosti i uvjete korištenja";
+"Restore"="Vratiti";
+"Text30ID"="Problem s povezivanjem";
+"Text31ID"="Čini se da internetska veza nije na mreži ☹️";
+"Text32ID"="Povezani ste!";
+"Text33ID"="Čini se da internetska veza postoji 😉";

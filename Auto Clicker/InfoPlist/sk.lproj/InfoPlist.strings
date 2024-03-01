@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 21.02.2024.
+  
+*/
+
+"NSUserTrackingUsageDescription"="Povoľte sledovanie používania vašej aplikácie, aby ste zlepšili svoje prispôsobené prostredie a zlepšili naše ponuky.";

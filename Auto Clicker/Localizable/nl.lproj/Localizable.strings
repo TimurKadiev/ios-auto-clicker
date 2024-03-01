@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoKlik";
+"Auto Scroll"="Automatisch scrollen";
+"Auto Counter"="Automatische teller";
+"Settings"="Instellingen";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Enkele klik-modus";
+"SingleDescription"="Stel één klik in op uw aangepaste browser";
+"MultiID"="Multi-klik-modus";
+"MultiDescription"="Stel meerdere klikken in in uw aangepaste browser";
+"RefreshID"="Automatische vernieuwingsmodus";
+"RefreshDescription"="Vernieuw uw aangepaste browser automatisch";
+"SplitID"="Gesplitste klikmodus";
+"SplitDescription"="Vernieuw uw aangepaste browser automatisch";
+"SafariID"="Safari-klikmodus";
+"SafariDescription"="Vernieuw uw aangepaste browser automatisch";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Zoek of voer de URL in";
+"title1"="Snelle toegang";
+
+//MARK= SETTINGS
+
+"Click Sound"="Klik op Geluid";
+"TermsID"="Gebruiksvoorwaarden";
+"PrivacyID"="Privacybeleid";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Totale tijd=";
+"countID"="Totaal aantal=";
+"min"="min";
+"sec"="sec";
+"START"="BEGIN";
+"STOP"="STOP";
+"SAVE"="REDDEN";
+
+//MARK= SAFARI CLICK
+
+"description1"="Toegang tot uw telefooninstellingen; scroll naar beneden totdat je Safari vindt; en kies Safari";
+"description2"="Navigeer door de inhoud totdat u \"Extensies\" tegenkomt then choose \"Extensions\"";
+"description3"="Selecteer onze applicatie genaamd \"Auto Clicker\" door erop te tikken.";
+"description4"="Activeer de schakelaar.";
+"description5"="Als je het op Safari wilt gebruiken; open Safari en druk op de knop \"AA\".";
+"description6"="Kies \"Auto Click\" en ervaar het!";
+"buttonText"="Doorgaan";
+"exit"="Uitgang";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Herhalen";
+"Tap"="Kraan";
+"Delay time="="Vertragingstijd=";
+"Back"="Rug";
+
+//MARK: Error Text
+
+"InternetError"="Geen internet verbinding";
+"valueEror"="Ongeldige waarden";
+"Error1"="Het maximale aantal klikken per seconde is 500.";
+"Error2"="Het aantal klikken moet minimaal 1 zijn.";
+
+//MARK: Subscription
+
+"PaymentID"="Geen betaling nu";
+"Tap"="Kraan";
+"CONTINUE"="DOORGAAN";
+"to"="naar";
+"SubscriptionText"="Belangrijk! Er zit geen gratis inhoud in! U moet geabonneerd zijn om toegang te krijgen tot de inhoud en functies van de app. De betaling wordt in rekening gebracht bij bevestiging van aankoop van het abonnement.
+- Het abonnement wordt automatisch verlengd, tenzij automatisch verlengen ten minste 24 uur voor het einde van de huidige periode wordt uitgeschakeld
+- De verlengingskosten zijn afhankelijk van het abonnement. Onze standaardabonnementen: Een abonnement van 1 week kost $ 9,99. Voor andere valuta komt de prijs overeen met het prijsniveau in de App Store-prijsmatrix
+- Abonnement met een gratis proefperiode wordt automatisch verlengd naar een betaald abonnement. U kunt de automatische verlenging van de gratis proefperiode annuleren of beheren door na aankoop naar uw Accountinstellingen te gaan
+- Let op: elk ongebruikt deel van de gratis proefperiode van drie dagen (indien aangeboden) vervalt als u tijdens de gratis proefperiode een premium-abonnement aanschaft. Zie voor alle andere informatie ons privacybeleid en onze gebruiksvoorwaarden";
+"Restore"="Herstellen";
+"Text30ID"="Connectiviteitsprobleem";
+"Text31ID"="De internetverbinding lijkt offline te zijn ☹️";
+"Text32ID"="Je bent verbonden!";
+"Text33ID"="De internetverbinding lijkt online te zijn 😉";

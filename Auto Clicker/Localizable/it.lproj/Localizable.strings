@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Clic automatico";
+"Auto Scroll"="Scorrimento automatico";
+"Auto Counter"="Contatore automatico";
+"Settings"="Impostazioni";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Modalità clic singolo";
+"SingleDescription"="Imposta il clic singolo sul tuo browser personalizzato";
+"MultiID"="Modalità multi clic";
+"MultiDescription"="Imposta più clic sul tuo browser personalizzato";
+"RefreshID"="Modalità di aggiornamento automatico";
+"RefreshDescription"="Aggiorna automaticamente il tuo browser personalizzato";
+"SplitID"="Modalità clic diviso";
+"SplitDescription"="Aggiorna automaticamente il tuo browser personalizzato";
+"SafariID"="Modalità clic di Safari";
+"SafariDescription"="Aggiorna automaticamente il tuo browser personalizzato";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Cerca o inserisci l'URL";
+"title1"="Accesso veloce";
+
+//MARK= SETTINGS
+
+"Click Sound"="Fare clic su Suono";
+"TermsID"="Termini di utilizzo";
+"PrivacyID"="politica sulla riservatezza";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Tempo totale=";
+"countID"="Conteggio totale=";
+"min"="min";
+"sec"="sez";
+"START"="INIZIO";
+"STOP"="FERMARE";
+"SAVE"="SALVA";
+
+//MARK= SAFARI CLICK
+
+"description1"="Accedi alle impostazioni del tuo telefono; scorri verso il basso fino a individuare Safari; e scegli Safari";
+"description2"="Naviga attraverso il contenuto finché non trovi \"Estensioni\"; then choose \"Extensions\"";
+"description3"="Seleziona la nostra applicazione chiamata \"Auto Clicker\" toccandola.";
+"description4"="Attiva l'interruttore.";
+"description5"="Se vuoi usarlo su Safari; apri Safari e premi il pulsante \"AA\".";
+"description6"="Scegli \"Clic automatico\" e provalo!";
+"buttonText"="Continua";
+"exit"="Uscita";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Ripetere";
+"Tap"="Rubinetto";
+"Delay time="="Tempo di ritardo=";
+"Back"="Indietro";
+
+//MARK: Error Text
+
+"InternetError"="Nessuna connessione internet";
+"valueEror"="Valori non validi";
+"Error1"="Il numero massimo di clic al secondo è 500.";
+"Error2"="Il numero di clic deve essere almeno 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Nessun pagamento adesso";
+"Tap"="Rubinetto";
+"CONTINUE"="CONTINUA";
+"to"="A";
+"SubscriptionText"="Importante! Non ci sono contenuti gratuiti all'interno! Devi essere iscritto per accedere ai contenuti e alle funzionalità dell'app. Il pagamento viene addebitato al momento della conferma dell'acquisto dell'abbonamento.
+- L'abbonamento si rinnoverà automaticamente a meno che il rinnovo automatico non venga disattivato almeno 24 ore prima della fine del periodo corrente
+- Il costo del rinnovo dipende dal piano di abbonamento. I nostri piani di abbonamento standard: l'abbonamento di 1 settimana costa $ 9,99 Per le altre valute, il prezzo corrisponde al livello di prezzo nella matrice dei prezzi dell'App Store
+- L'abbonamento con un periodo di prova gratuito si rinnova automaticamente in un abbonamento a pagamento. Puoi annullare o gestire il rinnovo automatico della prova gratuita accedendo alle Impostazioni account dopo l'acquisto
+- Nota: qualsiasi parte inutilizzata del periodo di prova gratuito di tre giorni (se offerto) verrà persa quando si acquista un abbonamento premium durante il periodo di prova gratuito. Per qualsiasi altra informazione, consultare la nostra politica sulla privacy e i termini di utilizzo.";
+"Restore"="Ristabilire";
+"Text30ID"="Problema di connettività";
+"Text31ID"="La connessione Internet sembra essere offline ☹️";
+"Text32ID"="Sei connesso!";
+"Text33ID"="La connessione Internet sembra essere online 😉";

@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Clique automático";
+"Auto Scroll"="Auto rolagem";
+"Auto Counter"="Contador automático";
+"Settings"="Configurações";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Modo de clique único";
+"SingleDescription"="Configure um único clique em seu navegador personalizado";
+"MultiID"="Modo Multi Clique";
+"MultiDescription"="Configure vários cliques em seu navegador personalizado";
+"RefreshID"="Modo de atualização automática";
+"RefreshDescription"="Atualize automaticamente seu navegador personalizado";
+"SplitID"="Modo de clique dividido";
+"SplitDescription"="Atualize automaticamente seu navegador personalizado";
+"SafariID"="Modo de clique Safari";
+"SafariDescription"="Atualize automaticamente seu navegador personalizado";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Pesquise ou insira o URL";
+"title1"="Acesso rápido";
+
+//MARK= SETTINGS
+
+"Click Sound"="Clique em Som";
+"TermsID"="Termos de uso";
+"PrivacyID"="política de Privacidade";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Tempo total =";
+"countID"="Contagem total=";
+"min"="min";
+"sec"="segundo";
+"START"="COMEÇAR";
+"STOP"="PARAR";
+"SAVE"="SALVAR";
+
+//MARK= SAFARI CLICK
+
+"description1"="Acesse as configurações do seu telefone; role para baixo até localizar o Safari; e escolha Safári";
+"description2"="Navegue pelo conteúdo até encontrar \"Extensões\"; then choose \"Extensions\"";
+"description3"="Selecione nosso aplicativo chamado \"Auto Clicker\" tocando nele.";
+"description4"="Ative o interruptor.";
+"description5"="Se você quiser usá-lo no Safari; abra o Safari e pressione o botão “AA”.";
+"description6"="Escolha \"Clique Automático\" e experimente!";
+"buttonText"="Continuar";
+"exit"="Saída";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Repita";
+"Tap"="Tocar";
+"Delay time="="Tempo de atraso=";
+"Back"="Voltar";
+
+//MARK: Error Text
+
+"InternetError"="Sem conexão com a internet";
+"valueEror"="Valores inválidos";
+"Error1"="O número máximo de cliques por segundo é 500.";
+"Error2"="O número de cliques deve ser pelo menos 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Sem pagamento agora";
+"Tap"="Tocar";
+"CONTINUE"="CONTINUAR";
+"to"="para";
+"SubscriptionText"="Importante! Não há conteúdo gratuito dentro! Você deve estar inscrito para acessar o conteúdo e recursos do aplicativo. O pagamento é cobrado após a confirmação da compra da assinatura.
+- A assinatura será renovada automaticamente, a menos que a renovação automática seja desativada pelo menos 24 horas antes do final do período atual
+- O custo de renovação depende do plano de assinatura. Nossos planos de assinatura padrão: A assinatura de 1 semana custa US$ 9,99. Para outras moedas, o preço corresponde ao nível de preço na Matriz de preços da App Store
+- A assinatura com período de teste gratuito é renovada automaticamente para uma assinatura paga. Você pode cancelar ou gerenciar a renovação automática da avaliação gratuita acessando as configurações da sua conta após a compra
+- Observação: qualquer parte não utilizada do período de teste gratuito de três dias (se oferecido) será perdida ao comprar uma assinatura premium durante o período de teste gratuito. - Para qualquer outra informação, consulte nossa política de privacidade e termos de uso";
+"Restore"="Restaurar";
+"Text30ID"="Problema de conectividade";
+"Text31ID"="A conexão com a Internet parece estar off-line ☹️";
+"Text32ID"="Você está conectado!";
+"Text33ID"="A conexão com a Internet parece estar online 😉";

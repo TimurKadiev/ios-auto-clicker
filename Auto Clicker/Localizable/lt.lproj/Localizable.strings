@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Automatinis spustelėjimas";
+"Auto Scroll"="Automatinis slinkimas";
+"Auto Counter"="Automatinis skaitiklis";
+"Settings"="Nustatymai";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Vieno paspaudimo režimas";
+"SingleDescription"="Vienu spustelėjimu nustatykite tinkintą naršyklę";
+"MultiID"="Kelių paspaudimų režimas";
+"MultiDescription"="Nustatykite kelis paspaudimus tinkintoje naršyklėje";
+"RefreshID"="Automatinio atnaujinimo režimas";
+"RefreshDescription"="Automatiškai atnaujinkite pasirinktinę naršyklę";
+"SplitID"="Padalinto paspaudimo režimas";
+"SplitDescription"="Automatiškai atnaujinkite pasirinktinę naršyklę";
+"SafariID"="„Safari“ paspaudimo režimas";
+"SafariDescription"="Automatiškai atnaujinkite pasirinktinę naršyklę";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Ieškokite arba įveskite URL";
+"title1"="Greita prieiga";
+
+//MARK= SETTINGS
+
+"Click Sound"="Spustelėkite Garsas";
+"TermsID"="Naudojimo sąlygos";
+"PrivacyID"="Privatumo politika";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Visas laikas =";
+"countID"="Bendras skaičius =";
+"min"="min";
+"sec"="sek";
+"START"="PRADĖTI";
+"STOP"="SUSTABDYTI";
+"SAVE"="SUTAUPYTI";
+
+//MARK= SAFARI CLICK
+
+"description1"="Pasiekite savo telefono nustatymus; slinkite žemyn, kol rasite „Safari“; ir pasirinkite „Safari“.";
+"description2"="Naršykite turinį, kol pamatysite \"Plėtinius\" then choose \"Extensions\"";
+"description3"="Paliesdami ją pasirinkite programą, pavadintą \"Auto Clicker\".";
+"description4"="Įjunkite jungiklį.";
+"description5"="Jei norite jį naudoti „Safari“; atidarykite „Safari“ ir paspauskite mygtuką „AA“.";
+"description6"="Pasirinkite \"Automatinis paspaudimas\" ir patirkite!";
+"buttonText"="Tęsti";
+"exit"="Išeiti";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Pakartokite";
+"Tap"="Bakstelėkite";
+"Delay time="="Vėlavimo laikas =";
+"Back"="Atgal";
+
+//MARK: Error Text
+
+"InternetError"="Nėra interneto ryšio";
+"valueEror"="Netinkamos reikšmės";
+"Error1"="Maksimalus paspaudimų skaičius per sekundę yra 500.";
+"Error2"="Paspaudimų skaičius turi būti bent 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Dabar nemokėti";
+"Tap"="Bakstelėkite";
+"CONTINUE"="TĘSTI";
+"to"="į";
+"SubscriptionText"="Svarbu! Viduje nėra nemokamo turinio! Turite užsiprenumeruoti, kad galėtumėte pasiekti programos turinį ir funkcijas. Mokėjimas imamas patvirtinus prenumeratos įsigijimą.
+- Prenumerata bus automatiškai atnaujinta, nebent automatinis atnaujinimas bus išjungtas likus bent 24 valandoms iki dabartinio laikotarpio pabaigos
+- Atnaujinimo kaina priklauso nuo prenumeratos plano. Mūsų standartiniai prenumeratos planai: 1 savaitės prenumerata kainuoja 9,99 USD. Kitomis valiutomis kaina atitinka kainų lygį „App Store Price Matrix“
+- Prenumerata su nemokamu bandomuoju laikotarpiu automatiškai atnaujinama į mokamą prenumeratą. Galite atšaukti arba valdyti automatinį nemokamos bandomosios versijos atnaujinimą apsilankę paskyros nustatymuose po pirkimo
+- Atkreipkite dėmesį: bet kokia nepanaudota trijų dienų nemokamo bandomojo laikotarpio dalis (jei siūloma) bus prarasta perkant aukščiausios kokybės prenumeratą nemokamo bandomojo laikotarpio metu. Jei reikia daugiau informacijos, žr. mūsų privatumo politiką ir naudojimo sąlygas.";
+"Restore"="Atkurti";
+"Text30ID"="Ryšio problema";
+"Text31ID"="Atrodo, kad interneto ryšys neprisijungęs ☹️";
+"Text32ID"="Jūs prisijungę!";
+"Text33ID"="Atrodo, kad interneto ryšys yra prisijungęs 😉";

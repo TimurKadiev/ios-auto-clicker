@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Defilare automată";
+"Auto Counter"="Contor automat";
+"Settings"="Setări";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Modul un singur clic";
+"SingleDescription"="Configurați un singur clic pe browserul personalizat";
+"MultiID"="Modul Multi Click";
+"MultiDescription"="Configurați clicuri multiple în browserul dvs. personalizat";
+"RefreshID"="Mod de reîmprospătare automată";
+"RefreshDescription"="Actualizează automat browserul personalizat";
+"SplitID"="Mod Split Click";
+"SplitDescription"="Actualizează automat browserul personalizat";
+"SafariID"="Safari Click Mode";
+"SafariDescription"="Actualizează automat browserul personalizat";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Căutați sau introduceți adresa URL";
+"title1"="Acces rapid";
+
+//MARK= SETTINGS
+
+"Click Sound"="Faceți clic pe Sunet";
+"TermsID"="Termeni de utilizare";
+"PrivacyID"="Politica de confidențialitate";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Timp total=";
+"countID"="Număr total=";
+"min"="min";
+"sec"="sec";
+"START"="START";
+"STOP"="STOP";
+"SAVE"="SALVA";
+
+//MARK= SAFARI CLICK
+
+"description1"="Accesați setările telefonului dvs.; derulați în jos până când găsiți Safari; și alegeți Safari";
+"description2"="Navigați prin conținut până când găsiți „Extensii”; then choose \"Extensions\"";
+"description3"="Selectați aplicația noastră numită „Auto Clicker” atingând-o.";
+"description4"="Activați comutatorul.";
+"description5"="Dacă vrei să-l folosești pe Safari; deschideți Safari și apăsați butonul \"AA\".";
+"description6"="Alege „Clic automat” și experimentează-l!";
+"buttonText"="Continua";
+"exit"="Ieșire";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Repeta";
+"Tap"="Atingeți";
+"Delay time="="Timp de întârziere=";
+"Back"="Înapoi";
+
+//MARK: Error Text
+
+"InternetError"="Fără conexiune internet";
+"valueEror"="Valori nevalide";
+"Error1"="Numărul maxim de clicuri pe secundă este de 500.";
+"Error2"="Numărul de clicuri trebuie să fie de cel puțin 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Nicio plată acum";
+"Tap"="Atingeți";
+"CONTINUE"="CONTINUA";
+"to"="la";
+"SubscriptionText"="Important! Nu există conținut gratuit în interior! Trebuie să fiți abonat pentru a accesa conținutul și caracteristicile aplicației. Plata este taxată la confirmarea achiziției abonamentului.
+- Abonamentul se va reînnoi automat, cu excepția cazului în care reînnoirea automată este dezactivată cu cel puțin 24 de ore înainte de sfârșitul perioadei curente
+- Costul de reînnoire depinde de planul de abonament. Planurile noastre standard de abonament: abonamentul pentru o săptămână este de 9,99 USD. Pentru alte valute, prețul se potrivește cu nivelul prețului din App Store Price Matrix
+- Abonamentul cu o perioadă de probă gratuită se reînnoiește automat la un abonament plătit. Puteți anula sau gestiona reînnoirea automată a perioadei de încercare gratuită accesând Setările contului după cumpărare
+- Vă rugăm să rețineți: orice parte neutilizată a perioadei de încercare gratuită de trei zile (dacă este oferită) va fi pierdută la achiziționarea unui abonament premium în timpul perioadei de încercare gratuită - Pentru orice alte informații, consultați politica noastră de confidențialitate și termenii de utilizare";
+"Restore"="Restabili";
+"Text30ID"="Problemă de conectivitate";
+"Text31ID"="Conexiunea la internet pare să fie offline ☹️";
+"Text32ID"="Esti conectat!";
+"Text33ID"="Conexiunea la internet pare să fie online 😉";

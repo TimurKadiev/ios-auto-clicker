@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Automatikus görgetés";
+"Auto Counter"="Automatikus számláló";
+"Settings"="Beállítások";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Egykattintásos mód";
+"SingleDescription"="Állítson be egyetlen kattintással egyéni böngészőjét";
+"MultiID"="Több kattintásos mód";
+"MultiDescription"="Állítsa be a többszörös kattintást egyéni böngészőjében";
+"RefreshID"="Automatikus frissítés mód";
+"RefreshDescription"="Az egyéni böngésző automatikus frissítése";
+"SplitID"="Osztott kattintás mód";
+"SplitDescription"="Az egyéni böngésző automatikus frissítése";
+"SafariID"="Safari kattintási mód";
+"SafariDescription"="Az egyéni böngésző automatikus frissítése";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Keressen vagy írja be az URL-t";
+"title1"="Gyors hozzáférés";
+
+//MARK= SETTINGS
+
+"Click Sound"="Kattintson a Hang elemre";
+"TermsID"="Használati feltételek";
+"PrivacyID"="Adatvédelmi irányelvek";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Teljes idő=";
+"countID"="Teljes szám=";
+"min"="min";
+"sec"="mp";
+"START"="RAJT";
+"STOP"="ÁLLJ MEG";
+"SAVE"="MEGMENT";
+
+//MARK= SAFARI CLICK
+
+"description1"="Nyissa meg a telefon beállításait; görgessen lefelé, amíg meg nem találja a Safarit; és válassza a Safari lehetőséget";
+"description2"="Navigáljon a tartalom között, amíg meg nem találja a \"Bővítmények\ then choose \"Extensions\"";
+"description3"="Válassza ki az \"Auto Clicker\" nevű alkalmazásunkat annak megérintésével.";
+"description4"="Aktiválja a kapcsolót.";
+"description5"="Ha Safariban szeretné használni; nyissa meg a Safarit, és nyomja meg az \"AA\" gombot.";
+"description6"="Válassza az \"Automatikus kattintás\" lehetőséget, és tapasztalja meg!";
+"buttonText"="Folytatni";
+"exit"="Kijárat";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Ismétlés";
+"Tap"="Koppintson a";
+"Delay time="="Késleltetési idő =";
+"Back"="Vissza";
+
+//MARK: Error Text
+
+"InternetError"="Nincs internetkapcsolat";
+"valueEror"="Érvénytelen értékek";
+"Error1"="A kattintások maximális száma másodpercenként 500.";
+"Error2"="A kattintások számának legalább 1-nek kell lennie.";
+
+//MARK: Subscription
+
+"PaymentID"="Most nincs fizetés";
+"Tap"="Koppintson a";
+"CONTINUE"="FOLYTATNI";
+"to"="nak nek";
+"SubscriptionText"="Fontos! Nincs benne ingyenes tartalom! Az alkalmazás tartalmának és funkcióinak eléréséhez előfizetéssel kell rendelkeznie. A fizetés az előfizetés megvásárlásának visszaigazolása után kerül felszámításra.
+- Az előfizetés automatikusan megújul, hacsak az automatikus megújítást nem kapcsolják ki legalább 24 órával az aktuális időszak vége előtt
+- A megújítási költség az előfizetési csomagtól függ. Normál előfizetési csomagjaink: 1 hetes előfizetés 9,99 USD Más pénznemek esetén az ár megegyezik az App Store Ármátrix árszintjével
+- Az ingyenes próbaidőszakkal rendelkező előfizetés automatikusan megújul egy fizetett előfizetésre. Az ingyenes próbaidőszak automatikus megújítását törölheti vagy kezelheti, ha a vásárlás után lépjen a Fiókbeállításokba
+- Kérjük, vegye figyelembe: A háromnapos ingyenes próbaidőszak fel nem használt része (ha felajánlja) elveszik, ha prémium előfizetést vásárol az ingyenes próbaidőszak alatt. Minden egyéb információért tekintse meg adatvédelmi szabályzatunkat és használati feltételeinket.";
+"Restore"="visszaállítás";
+"Text30ID"="Kapcsolódási probléma";
+"Text31ID"="Úgy tűnik, az internetkapcsolat offline ☹️";
+"Text32ID"="Ön kapcsolatban áll!";
+"Text33ID"="Úgy tűnik, az internetkapcsolat online 😉";

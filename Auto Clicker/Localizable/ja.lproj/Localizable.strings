@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="オートクリック";
+"Auto Scroll"="自動スクロール";
+"Auto Counter"="オートカウンター";
+"Settings"="設定";
+
+//MARK= AUTO CLICK
+
+"SingleID"="シングルクリックモード";
+"SingleDescription"="カスタムブラウザでシングルクリックを設定する";
+"MultiID"="マルチクリックモード";
+"MultiDescription"="カスタムブラウザでマルチクリックを設定する";
+"RefreshID"="自動リフレッシュモード";
+"RefreshDescription"="カスタムブラウザを自動更新する";
+"SplitID"="スプリットクリックモード";
+"SplitDescription"="カスタムブラウザを自動更新する";
+"SafariID"="Safari クリックモード";
+"SafariDescription"="カスタムブラウザを自動更新する";
+
+//MARK= AUTO SCROLL
+
+"searchText"="URLを検索または入力してください";
+"title1"="迅速なアクセス";
+
+//MARK= SETTINGS
+
+"Click Sound"="クリック音";
+"TermsID"="利用規約";
+"PrivacyID"="プライバシーポリシー";
+
+//MARK= AUTO COUNTER
+
+"timeID"="合計時間=";
+"countID"="合計数=";
+"min"="分";
+"sec"="秒";
+"START"="始める";
+"STOP"="停止";
+"SAVE"="保存";
+
+//MARK= SAFARI CLICK
+
+"description1"="電話の設定にアクセスします。 Safari が見つかるまで下にスクロールします。そして「Safari」を選択します";
+"description2"="「拡張機能」が見つかるまでコンテンツ内を移動します。; then choose \"Extensions\"";
+"description3"="「Auto Clicker」というアプリケーションをタップして選択します。";
+"description4"="スイッチをアクティブにします。";
+"description5"="Safariで使いたい場合は、 Safari を開き、「AA」ボタンを押します。";
+"description6"="「自動クリック」を選択して体験してください。";
+"buttonText"="続く";
+"exit"="出口";
+
+//MARK= MULTI CLICK
+
+"Repeat"="繰り返す";
+"Tap"="タップ";
+"Delay time="="遅延時間=";
+"Back"="戻る";
+
+//MARK: Error Text
+
+"InternetError"="インターネット接続がありません";
+"valueEror"="無効な値";
+"Error1"="1 秒あたりの最大クリック数は 500 です。";
+"Error2"="クリック数は少なくとも 1 回である必要があります。";
+
+//MARK: Subscription
+
+"PaymentID"="今は支払いがありません";
+"Tap"="タップ";
+"CONTINUE"="続く";
+"to"="に";
+"SubscriptionText"="重要！中には無料コンテンツはありません！アプリのコンテンツと機能にアクセスするには、サブスクリプションを購入する必要があります。サブスクリプションの購入が確認された時点で支払いが請求されます。
+- 現在の期間が終了する少なくとも 24 時間前に自動更新をオフにしない限り、サブスクリプションは自動更新されます
+- 更新費用は契約プランによって異なります。当社の標準サブスクリプション プラン: 1 週間のサブスクリプションは $9.99 です。他の通貨の場合、価格は App Store の価格マトリックスの価格レベルと一致します。
+- 無料試用期間のあるサブスクリプションは、有料サブスクリプションに自動的に更新されます。購入後にアカウント設定に移動すると、無料トライアルの自動更新をキャンセルまたは管理できます。
+- 注意: 無料試用期間中にプレミアム サブスクリプションを購入すると、3 日間の無料試用期間 (提供されている場合) の未使用部分は失われます。 その他の情報については、当社のプライバシー ポリシーと利用規約をご覧ください。";
+"Restore"="復元する";
+"Text30ID"="接続の問題";
+"Text31ID"="インターネット接続がオフラインになっているようです ☹️";
+"Text32ID"="あなたは接続されています！";
+"Text33ID"="インターネット接続はオンラインになっているようです 😉";

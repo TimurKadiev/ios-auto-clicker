@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto Clicker</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+</head>
+<body>
+    <div class = "functionView" >
+         <button id = "autoRefresh" type="button" class="functionButton">Auto Refresh</button>
+         <button id = "autoScroll" type="button" class="functionButton">Auto Scroll</button>
+    </div>
+
+    <div>
+        
+        <div id = "autoReloadView">
+            <div style="text-align: center;margin-top: 16px;margin-left: auto;margin-right: auto;">
+                <span>Maximum 5 minutes, minimum 1 second</span>
+            </div>
+            
+            
+            <div class="slidecontainer">
+                <input type="range" min="1" max="300" value="1" class="slider" id="timeSlider">
+                    <p>Refresh time: <span id="timeSliderValue"></span></p>
+            </div>
+            
+            <div class="refreshBtnBackground">
+                <img src="../images/ic_reloadOff.png" class="startRefreshBtn" id = "startRefreshBtn">
+            </div>
+        </div>
+        
+        <div id = "autoScrollView">
+            
+            <div style="text-align: center;margin-top: 16px;margin-left: auto;margin-right: auto;">
+                <span>Select Speed</span>
+            </div>
+            
+            <div class="scrollSlidecontainer">
+                <input type="range" min="1" max="4" value="1" class="slider" id="scrollSpeedSlider" step="1">
+                    <p>Scroll Speed: <span id="scrollSpeedSliderValue"></span></p>
+            </div>
+            
+            <div class="refreshBtnBackground">
+                <img src="../images/ic_autoScrollOff.png" class="startScrollBtn" id = "startScrollBtn">
+            </div>
+        </div>
+        
+
+    </div>
+
+    
+</body>
+</html>

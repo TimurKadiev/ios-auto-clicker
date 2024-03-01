@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="Klik Otomatis";
+"Auto Scroll"="Gulir Otomatis";
+"Auto Counter"="Penghitung Otomatis";
+"Settings"="Pengaturan";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Mode Klik Tunggal";
+"SingleDescription"="Siapkan satu klik pada browser khusus Anda";
+"MultiID"="Mode Multi-Klik";
+"MultiDescription"="Siapkan multi-klik pada browser khusus Anda";
+"RefreshID"="Mode Penyegaran Otomatis";
+"RefreshDescription"="Segarkan otomatis browser khusus Anda";
+"SplitID"="Mode Klik Terpisah";
+"SplitDescription"="Segarkan otomatis browser khusus Anda";
+"SafariID"="Mode Klik Safari";
+"SafariDescription"="Segarkan otomatis browser khusus Anda";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Cari atau masukkan URL";
+"title1"="Akses Cepat";
+
+//MARK= SETTINGS
+
+"Click Sound"="Klik Suara";
+"TermsID"="Syarat Penggunaan";
+"PrivacyID"="Kebijakan pribadi";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Jumlah waktu=";
+"countID"="Jumlah total=";
+"min"="menit";
+"sec"="detik";
+"START"="AWAL";
+"STOP"="BERHENTI";
+"SAVE"="MENYIMPAN";
+
+//MARK= SAFARI CLICK
+
+"description1"="Akses pengaturan telepon Anda; gulir ke bawah hingga Anda menemukan Safari; dan pilih Safari";
+"description2"="Telusuri konten hingga Anda menemukan \"Ekstensi\"; then choose \"Extensions\"";
+"description3"="Pilih aplikasi kami yang disebut \"Pengklik Otomatis\" dengan mengetuknya.";
+"description4"="Aktifkan sakelar.";
+"description5"="Jika Anda ingin menggunakannya di Safari; buka Safari dan tekan tombol \"AA\".";
+"description6"="Pilih \"Klik Otomatis\" dan rasakan!";
+"buttonText"="Melanjutkan";
+"exit"="KELUAR";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Mengulang";
+"Tap"="Mengetuk";
+"Delay time="="Waktu tunda=";
+"Back"="Kembali";
+
+//MARK: Error Text
+
+"InternetError"="Tidak ada koneksi internet";
+"valueEror"="Nilai tidak valid";
+"Error1"="Jumlah klik maksimum per detik adalah 500.";
+"Error2"="Jumlah klik minimal harus 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Tidak Ada Pembayaran Sekarang";
+"Tap"="Mengetuk";
+"CONTINUE"="MELANJUTKAN";
+"to"="ke";
+"SubscriptionText"="Penting! Tidak ada konten gratis di dalamnya! Anda harus berlangganan untuk mengakses konten dan fitur aplikasi. Pembayaran dibebankan setelah konfirmasi pembelian langganan.
+- Langganan akan diperpanjang secara otomatis kecuali perpanjangan otomatis dimatikan setidaknya 24 jam sebelum akhir periode berjalan
+- Biaya perpanjangan tergantung pada paket berlangganan. Paket berlangganan standar kami: Langganan 1 minggu adalah $9,99Untuk mata uang lainnya, harga sesuai dengan tingkat harga di Matriks Harga App Store
+- Langganan dengan masa uji coba gratis otomatis diperpanjang menjadi langganan berbayar. Anda dapat membatalkan atau mengelola perpanjangan otomatis uji coba gratis dengan membuka Pengaturan Akun Anda setelah pembelian
+- Harap dicatat: Setiap bagian yang tidak terpakai dari masa uji coba gratis tiga hari (jika ditawarkan) akan hangus saat membeli langganan premium selama masa uji coba gratis - Untuk informasi lainnya, lihat kebijakan privasi dan ketentuan penggunaan kami";
+"Restore"="Memulihkan";
+"Text30ID"="Masalah Konektivitas";
+"Text31ID"="Koneksi internet sepertinya offline ☹️";
+"Text32ID"="Anda terhubung!";
+"Text33ID"="Koneksi internet sepertinya online 😉";

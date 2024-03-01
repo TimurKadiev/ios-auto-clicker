@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  Auto Clicker
+
+  Created by Timur Kadiev on 15.02.2024.
+  
+*/
+
+"Auto Click"="AutoClick";
+"Auto Scroll"="Automaattinen vieritys";
+"Auto Counter"="Automaattinen laskuri";
+"Settings"="asetukset";
+
+//MARK= AUTO CLICK
+
+"SingleID"="Yhden napsautuksen tila";
+"SingleDescription"="Määritä mukautettu selaimesi yhdellä napsautuksella";
+"MultiID"="Moninapsautustila";
+"MultiDescription"="Määritä useita napsautuksia mukautetussa selaimessasi";
+"RefreshID"="Automaattinen päivitystila";
+"RefreshDescription"="Päivitä mukautettu selaimesi automaattisesti";
+"SplitID"="Split Click Mode";
+"SplitDescription"="Päivitä mukautettu selaimesi automaattisesti";
+"SafariID"="Safarin napsautustila";
+"SafariDescription"="Päivitä mukautettu selaimesi automaattisesti";
+
+//MARK= AUTO SCROLL
+
+"searchText"="Hae tai kirjoita URL-osoite";
+"title1"="Nopea pääsy";
+
+//MARK= SETTINGS
+
+"Click Sound"="Napsauta Ääni";
+"TermsID"="Käyttöehdot";
+"PrivacyID"="Tietosuojakäytäntö";
+
+//MARK= AUTO COUNTER
+
+"timeID"="Kokonaisaika =";
+"countID"="Kokonaismäärä =";
+"min"="min";
+"sec"="sek";
+"START"="ALKAA";
+"STOP"="LOPETTAA";
+"SAVE"="TALLENTAA";
+
+//MARK= SAFARI CLICK
+
+"description1"="Käytä puhelimen asetuksia; vieritä alaspäin, kunnes löydät Safarin; ja valitse Safari";
+"description2"="Selaa sisältöä, kunnes löydät \"Laajennukset\" then choose \"Extensions\"";
+"description3"="Valitse sovelluksemme nimeltä \"Auto Clicker\" napauttamalla sitä.";
+"description4"="Aktivoi kytkin.";
+"description5"="Jos haluat käyttää sitä Safarissa; avaa Safari ja paina \"AA\"-painiketta.";
+"description6"="Valitse \"Auto Click\" ja koe se!";
+"buttonText"="Jatkaa";
+"exit"="Poistu";
+
+//MARK= MULTI CLICK
+
+"Repeat"="Toistaa";
+"Tap"="Napauta";
+"Delay time="="Viiveaika =";
+"Back"="Takaisin";
+
+//MARK: Error Text
+
+"InternetError"="Ei Internet-yhteyttä";
+"valueEror"="Virheelliset arvot";
+"Error1"="Klikkausten enimmäismäärä sekunnissa on 500.";
+"Error2"="Napsautusten määrän on oltava vähintään 1.";
+
+//MARK: Subscription
+
+"PaymentID"="Ei maksua nyt";
+"Tap"="Napauta";
+"CONTINUE"="JATKAA";
+"to"="to";
+"SubscriptionText"="Tärkeä! Sisällä ei ole ilmaista sisältöä! Sinun on oltava tilannut käyttääksesi sovelluksen sisältöä ja ominaisuuksia. Maksu veloitetaan tilauksen ostovahvistuksen yhteydessä.
+- Tilaus uusitaan automaattisesti, ellei automaattista uusimista ole kytketty pois päältä vähintään 24 tuntia ennen nykyisen jakson päättymistä
+- Uusimishinta riippuu tilaussuunnitelmasta. Vakiotilauspakettimme: 1 viikon tilaus on 9,99 dollaria. Muilla valuutoilla hinta vastaa App Storen hintamatriisin hintatasoa
+- Tilaus ilmaisella kokeilujaksolla uusiutuu automaattisesti maksulliseksi tilaukseksi. Voit peruuttaa tai hallita ilmaisen kokeilujakson automaattista uusimista siirtymällä Tilin asetuksiin oston jälkeen
+- Huomaa: Kolmen päivän ilmaisen kokeilujakson käyttämätön osa (jos tarjotaan) menetetään, kun ostat premium-tilauksen ilmaisen kokeilujakson aikana. Lisätietoja on tietosuojakäytännössämme ja käyttöehdoissamme.";
+"Restore"="Palauttaa";
+"Text30ID"="Yhteysongelma";
+"Text31ID"="Internet-yhteys näyttää olevan offline-tilassa ☹️";
+"Text32ID"="Olet yhteydessä!";
+"Text33ID"="Internet-yhteys näyttää olevan verkossa 😉";
