@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="Toplam süre=";
-"countID"="Toplam sayım=";
+"timeID"="Toplam süre:";
+"countID"="Toplam sayım:";
 "min"="dk.";
 "sec"="saniye";
 "START"="BAŞLANGIÇ";
@@ -60,7 +60,7 @@
 
 "Repeat"="Tekrarlamak";
 "Tap"="Musluk";
-"Delay time="="Gecikme süresi=";
+"Delay time="="Gecikme süresi:";
 "Back"="Geri";
 
 //MARK: Error Text

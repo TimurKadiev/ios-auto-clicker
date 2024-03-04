@@ -175,7 +175,7 @@ extension ClickView {
             TextField("", text: $viewModel.textForURL, onEditingChanged: getFocus, onCommit: viewModel.doSerchInWebView)
                 .font(.system(size: Device_KTM.iPhone ? 15 : 30, weight: .medium))
                 .foregroundColor(.black)
-                .padding(.leading, Device_KTM.iPhone ? 50 : 80)
+                .padding(.leading, Device_KTM.iPhone ? 50 :70)
                 .placeholder_KTM(when: viewModel.textForURL.isEmpty) {
                     HStack(spacing: 5) {
                         Rectangle()
@@ -251,7 +251,7 @@ extension ClickView {
             }
             .disabled(viewModel.showMenuPopUp)
             .padding(.top, -14)
-            .padding(.bottom, ScreenSize_KTM.KTM_height * (Device_KTM.iPhone ? 0.12 : 0.2))
+            .padding(.bottom, ScreenSize_KTM.KTM_height * (Device_KTM.iPhone ? 0.25 : 0.35))
         }
         .padding(.horizontal, Device_KTM.iPhone ? 24 : 48)
     }

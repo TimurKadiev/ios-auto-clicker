@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="合計時間=";
-"countID"="合計数=";
+"timeID"="合計時間:";
+"countID"="合計数:";
 "min"="分";
 "sec"="秒";
 "START"="始める";

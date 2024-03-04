@@ -54,7 +54,7 @@ class AutoCounterViewModel: ObservableObject {
                 clickDisplayViewTextFieldCount = filteredString
             }
             if let seconds = Int(clickDisplayViewTextFieldCount) {
-                if seconds > 599 {
+                if seconds > 500 {
                     clickDisplayViewTextFieldCount = "599"
                 }
             }

@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="Gesamtzeit=";
-"countID"="Gesamtzahl=";
+"timeID"="Gesamtzeit:";
+"countID"="Gesamtzahl:";
 "min"="Mindest";
 "sec"="Sek";
 "START"="START";
@@ -60,7 +60,7 @@
 
 "Repeat"="Wiederholen";
 "Tap"="Klopfen";
-"Delay time="="Verzögerungszeit=";
+"Delay time="="Verzögerungszeit:";
 "Back"="Zurück";
 
 //MARK: Error Text

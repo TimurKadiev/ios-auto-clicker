@@ -12,6 +12,7 @@ struct SubscriptionScreenView: View {
     @EnvironmentObject var iapVM: IAPManager_MFTW
     @State var mainScren: PremiumMainControllerStyle_KTM
     @State var screenSequence: SubscriptionCases_KTM = .stCollection
+    @Binding var showAlert: Bool
     @State var select: [Int] = []
     @State var isPlay = true
     var closeAction: EmptyBlock
@@ -30,29 +31,34 @@ struct SubscriptionScreenView: View {
         case .multiClickProduct:
             TransactionView(isShowExitButton: true, action: {
                 iapVM.purchase_MFTW(product: .multiClic)
+                showAlert = !InternetManager_KTM.shared.checkInternetConnectivity_KTM()
             }, closeAction: closeAction)
         case .autorefreshProduct:
             TransactionView(isShowExitButton: true,action: {
                 iapVM.purchase_MFTW(product: .autoRefresh)
+                showAlert = !InternetManager_KTM.shared.checkInternetConnectivity_KTM()
             }, closeAction: closeAction)
         case .splitClickProduct:
             TransactionView(isShowExitButton: true,action: {
-                iapVM.purchase_MFTW(product: .main)
+                iapVM.purchase_MFTW(product: .splitClick)
+                showAlert = !InternetManager_KTM.shared.checkInternetConnectivity_KTM()
             }, closeAction: closeAction)
         case .safariClickProduct:
             TransactionView(isShowExitButton: true,action: {
                 iapVM.purchase_MFTW(product: .safaariClick)
+                showAlert = !InternetManager_KTM.shared.checkInternetConnectivity_KTM()
             }, closeAction: closeAction)
         case .autoScrollProduct:
             TransactionView(isShowExitButton: true,action: {
                 iapVM.purchase_MFTW(product: .autoScroll)
+                showAlert = !InternetManager_KTM.shared.checkInternetConnectivity_KTM()
             }, closeAction: closeAction)
         }
     }
 }
 
 #Preview {
-    SubscriptionScreenView(mainScren: .mainProduct, closeAction: ({}))
+    SubscriptionScreenView(mainScren: .mainProduct, showAlert: .constant(false), closeAction: ({}))
         .environmentObject(IAPManager_MFTW.shared)
 }
 
@@ -61,13 +67,11 @@ extension SubscriptionScreenView {
         switch screenSequence {
         case .stCollection:
             SelectionSubscriptionView(player: player, isPlaying: $isPlay) {
-                ThirdPartyServicesManager_KTM.shared.makeATT()
                 screenSequence = .ndCollection
                 isPlay = false
             }
         case .ndCollection:
             SelectionSubscriptionView(player: player, isPlaying: $isPlay) {
-                ThirdPartyServicesManager_KTM.shared.makeATT()
                 screenSequence = .proposalScreen
             }
             .onAppear {
@@ -76,6 +80,7 @@ extension SubscriptionScreenView {
         case .proposalScreen:
             TransactionView(isShowExitButton: false,action: {
                 iapVM.purchase_MFTW(product: .main)
+                showAlert = !InternetManager_KTM.shared.checkInternetConnectivity_KTM()
             }, closeAction: closeAction)
         }
     }

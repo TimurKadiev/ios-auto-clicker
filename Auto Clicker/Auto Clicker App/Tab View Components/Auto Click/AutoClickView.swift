@@ -22,21 +22,21 @@ struct AutoClickViewKTM: View {
                 if appViewModel.multiClickProductIsEnabled {
                     ClickView(title: appViewModel.title)
                 } else {
-                    SubscriptionScreenView(mainScren: .multiClickProduct, closeAction: appViewModel.closeClickModeView)
+                    SubscriptionScreenView(mainScren: .multiClickProduct, showAlert: .constant(false), closeAction: appViewModel.closeClickModeView)
                         .environmentObject(IAPManager_MFTW.shared)
                 }
             } else if appViewModel.title == "RefreshID" {
                 if appViewModel.autoRefreshProductIsEnabled {
                     ClickView(title: appViewModel.title)
                 } else {
-                    SubscriptionScreenView(mainScren: .autorefreshProduct, closeAction: appViewModel.closeClickModeView)
+                    SubscriptionScreenView(mainScren: .autorefreshProduct, showAlert: .constant(false), closeAction: appViewModel.closeClickModeView)
                         .environmentObject(IAPManager_MFTW.shared)
                 }
             } else if appViewModel.title == "SplitID" {
                 if appViewModel.splitClickProductIsEnabled {
                     ClickView(title: appViewModel.title)
                 } else {
-                    SubscriptionScreenView(mainScren: .splitClickProduct, closeAction: appViewModel.closeClickModeView)
+                    SubscriptionScreenView(mainScren: .splitClickProduct, showAlert: .constant(false), closeAction: appViewModel.closeClickModeView)
                         .environmentObject(IAPManager_MFTW.shared)
                 }
             } else {
@@ -47,7 +47,8 @@ struct AutoClickViewKTM: View {
             if appViewModel.safariClickProductIsEnabled {
                 SafariView()
             } else {
-                SubscriptionScreenView(mainScren: .safariClickProduct, closeAction: appViewModel.closeClickModeView)
+                SubscriptionScreenView(mainScren: .safariClickProduct, showAlert: .constant(false), closeAction: appViewModel.closeClickModeView)
+                    .environmentObject(IAPManager_MFTW.shared)
             }
         }
         .fullScreenCover(isPresented: $appViewModel.showSettings, content: {
@@ -74,7 +75,7 @@ extension AutoClickViewKTM {
     private var heder: some View {
         HStack {
             Spacer()
-            Text(NSLocalizedString( "Auto Click", comment: ""))
+            Text(NSLocalizedString("Auto Click", comment: ""))
                 .font(.system(size: Device_KTM.iPhone ? 26 : 52, weight: .bold))
                 .padding(.leading, Device_KTM.iPhone ? 51 : 102)
                 .foregroundColor(.black)

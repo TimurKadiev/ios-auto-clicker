@@ -38,7 +38,7 @@
 //MARK= AUTO COUNTER
 
 "timeID"="Total tid";
-"countID"="Totalt antall =";
+"countID"="Totalt antall :";
 "min"="min";
 "sec"="sek";
 "START"="START";
@@ -60,7 +60,7 @@
 
 "Repeat"="Gjenta";
 "Tap"="Trykk på";
-"Delay time="="Forsinkelsestid =";
+"Delay time="="Forsinkelsestid :";
 "Back"="Tilbake";
 
 //MARK: Error Text

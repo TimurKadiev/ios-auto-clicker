@@ -6,7 +6,7 @@
   
 */
 
-"Auto Click"="AutoClick";
+"Auto Click"="Auto Click";
 "Auto Scroll"="Auto Scroll";
 "Auto Counter"="Auto Counter";
 "Settings"="Settings";
@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="Total time=";
-"countID"="Total count=";
+"timeID"="Total time:";
+"countID"="Total count:";
 "min"="min";
 "sec"="sec";
 "START"="START";
@@ -60,7 +60,7 @@
 
 "Repeat"="Repeat";
 "Tap"="Tap";
-"Delay time="="Delay time=";
+"Delay time="="Delay time:";
 "Back"="Back";
 
 //MARK: Error Text

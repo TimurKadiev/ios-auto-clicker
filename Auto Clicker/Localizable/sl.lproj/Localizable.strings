@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="Skupni čas=";
-"countID"="Skupno število=";
+"timeID"="Skupni čas:";
+"countID"="Skupno število:";
 "min"="min";
 "sec"="sek";
 "START"="START";

@@ -126,7 +126,7 @@ extension AutoScrollViewKTM {
             TextField("", text: $viewModel.textForScrollURL, onEditingChanged: getFocus, onCommit: viewModel.doSerchInWebView)
                 .font(.system(size: Device_KTM.iPhone ? 15 : 30, weight: .medium))
                 .foregroundColor(.black)
-                .padding(.leading, Device_KTM.iPhone ? 50: 80)
+                .padding(.leading, Device_KTM.iPhone ? 50: 70)
                 .placeholder_KTM(when: viewModel.textForScrollURL.isEmpty) {
                     HStack(spacing: 5) {
                        Rectangle()

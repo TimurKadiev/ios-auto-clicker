@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="总时间=";
-"countID"="总数=";
+"timeID"="总时间:";
+"countID"="总数:";
 "min"="分钟";
 "sec"="秒";
 "START"="开始";
@@ -60,7 +60,7 @@
 
 "Repeat"="重复";
 "Tap"="轻敲";
-"Delay time="="延迟时间=";
+"Delay time="="延迟时间:";
 "Back"="后退";
 
 //MARK: Error Text

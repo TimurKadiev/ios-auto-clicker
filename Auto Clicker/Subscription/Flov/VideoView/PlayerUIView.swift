@@ -10,6 +10,10 @@ import AVKit
 import AVFoundation
 
 
+import Foundation
+import AVKit
+import AVFoundation
+
 class PlayerUIView: UIView {
     private var player: AVPlayer
     private var playerLayer = AVPlayerLayer()
@@ -17,6 +21,7 @@ class PlayerUIView: UIView {
     init(player: AVPlayer) {
         self.player = player
         super.init(frame: .zero)
+        setupAudioSession() // Настройка аудиосессии для воспроизведения в беззвучном режиме
         playerLayer.player = player
         playerLayer.videoGravity = .resizeAspectFill
         layer.addSublayer(playerLayer)
@@ -35,20 +40,19 @@ class PlayerUIView: UIView {
 
     private func configureVideoLooping() {
         player.play()
-        player.isMuted = true 
+        player.isMuted = false
         NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: player.currentItem, queue: .main) { [weak self] _ in
             self?.player.seek(to: CMTime.zero)
             self?.player.play()
         }
     }
 
-    private func addAppLifecycleObservers() { lazy var ref = "refactoring"
-        NotificationCenter.default.addObserver(self, selector: #selector(appWillDeactivate), name: UIScene.willDeactivateNotification, object: nil)
+    private func addAppLifecycleObservers() {
         NotificationCenter.default.addObserver(self, selector: #selector(appDidActivate), name: UIScene.didActivateNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(appWillDeactivate), name: UIScene.willDeactivateNotification, object: nil)
     }
     
     @objc private func appDidActivate() {
-        // Проверьте, не воспроизводится ли уже видео, прежде чем вызывать play, чтобы избежать повторного запуска, если это не нужно
         if player.timeControlStatus != .playing {
             player.play()
         }
@@ -58,12 +62,16 @@ class PlayerUIView: UIView {
         player.pause()
     }
 
-    @objc private func appWillEnterForeground() {
-        player.play()
-    }
-
     deinit {
         NotificationCenter.default.removeObserver(self)
     }
-}
 
+    private func setupAudioSession() {
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback)
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print("Failed to set audio session category. Error: \(error)")
+        }
+    }
+}

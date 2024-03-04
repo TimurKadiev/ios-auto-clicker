@@ -57,7 +57,7 @@ class AutoScrollViewModel: ObservableObject {
          LinkFastCollection_KTM(image: "netflix_image", name: "Netflix", ownLink: LinksConstants_KTM.netflixURL),
         
        
-         LinkFastCollection_KTM(image: "twitter_image", name: "Twitter", ownLink: LinksConstants_KTM.twitterURL),
+         LinkFastCollection_KTM(image: "x_image", name: "X", ownLink: LinksConstants_KTM.twitterURL),
          LinkFastCollection_KTM(image: "instagram_image", name: "Instagram", ownLink: LinksConstants_KTM.instagramURL),
        
     ]

@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ThirdPartyServicesManager_KTM.shared.initializeInApps_KTM()
         ThirdPartyServicesManager_KTM.shared.initializeAdjust_KTM()
         ThirdPartyServicesManager_KTM.shared.initializePushwoosh_KTM(delegate: self)
-        
+        ThirdPartyServicesManager_KTM.shared.makeATT()
         return true
     }
     

@@ -62,11 +62,12 @@ struct SelectionSubscriptionView: View {
                     .padding(.leading, ScreenSize_KTM.KTM_width * 0.05)
                 }
                 
-                ContinueButton_KTM(action: action)
+                ContinueButton_KTM( action: action)
             }
             .padding(.bottom, 20)
             
         }
+
         .background(Color.black)
         .ignoresSafeArea()
     }

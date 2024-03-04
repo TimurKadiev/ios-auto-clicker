@@ -33,14 +33,14 @@ struct AutoClickerTabView: View {
             TabBarViewKTM(viewModel: viewModel)
         }
         .fullScreenCover(isPresented: $showingSubscriptionView) {
-            SubscriptionScreenView(mainScren: .autoScrollProduct, closeAction: {
+            SubscriptionScreenView(mainScren: .autoScrollProduct, showAlert: .constant(false), closeAction: {
                 if let previousTab = viewModel.previousTabView {
                     viewModel.autoClickerTabView = previousTab
                 }
             })
                 .environmentObject(IAPManager_MFTW.shared)
         }
-        .background(Color("backgraungColor"))
+        .background(Color.backgraungColor)
         .ignoresSafeArea()
     }
 }

@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="זמן כולל=";
-"countID"="סך הכל ספירה=";
+"timeID"="זמן כולל:";
+"countID"="סך הכל ספירה:";
 "min"="דקה";
 "sec"="שניות";
 "START"="הַתחָלָה";
@@ -60,7 +60,7 @@
 
 "Repeat"="חזור";
 "Tap"="בֶּרֶז";
-"Delay time="="זמן עיכוב =";
+"Delay time="="זמן עיכוב :";
 "Back"="חזור";
 
 //MARK: Error Text

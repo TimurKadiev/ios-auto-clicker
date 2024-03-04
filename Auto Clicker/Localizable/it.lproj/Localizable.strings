@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="Tempo totale=";
-"countID"="Conteggio totale=";
+"timeID"="Tempo totale:";
+"countID"="Conteggio totale:";
 "min"="min";
 "sec"="sez";
 "START"="INIZIO";
@@ -60,7 +60,7 @@
 
 "Repeat"="Ripetere";
 "Tap"="Rubinetto";
-"Delay time="="Tempo di ritardo=";
+"Delay time="="Tempo di ritardo:";
 "Back"="Indietro";
 
 //MARK: Error Text

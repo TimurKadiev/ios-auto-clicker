@@ -37,8 +37,8 @@
 
 //MARK= AUTO COUNTER
 
-"timeID"="الوقت الإجمالي=";
-"countID"="العدد الإجمالي=";
+"timeID"="الوقت الإجمالي:";
+"countID"="العدد الإجمالي:";
 "min"="دقيقة";
 "sec"="ثانية";
 "START"="يبدأ";
@@ -60,7 +60,7 @@
 
 "Repeat"="يكرر";
 "Tap"="مقبض";
-"Delay time="="وقت التأخير=";
+"Delay time="="وقت التأخير:";
 "Back"="خلف";
 
 //MARK: Error Text
