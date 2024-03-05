@@ -70,14 +70,6 @@ struct ClickDisplayView: View {
                             }
                             
                             TextField("0", text: $textFieldCount, onEditingChanged: getFocus)
-                                .onChange(of: textFieldCount) { newValue in
-                                    DispatchQueue.main.async {
-                                        if let value = Int(newValue), value > 599 {
-                                            textFieldCount = "599"
-                                            print("Корректировка значения: \(textFieldCount)")
-                                        }
-                                    }
-                                }
                                 .multilineTextAlignment(.center)
                                 .font(.system(size: Device_KTM.iPhone ? 20 : 40, weight: .medium))
                                 .foregroundColor(.black)
