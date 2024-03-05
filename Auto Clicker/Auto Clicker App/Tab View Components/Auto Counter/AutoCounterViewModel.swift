@@ -26,8 +26,8 @@ class AutoCounterViewModel: ObservableObject {
                 clickDisplayViewTextFieldMin = filteredString
             }
             
-            if let seconds = Int(clickDisplayViewTextFieldMin) {
-                if seconds > 59 {
+            if let min = Int(clickDisplayViewTextFieldMin) {
+                if min > 59 {
                     clickDisplayViewTextFieldMin = "59"
                 }
             }
@@ -39,7 +39,6 @@ class AutoCounterViewModel: ObservableObject {
             if filteredString != clickDisplayViewTextFieldSec {
                 clickDisplayViewTextFieldSec = filteredString
             }
-            
             if let seconds = Int(clickDisplayViewTextFieldSec) {
                 if seconds > 59 {
                     clickDisplayViewTextFieldSec = "59"
@@ -53,8 +52,9 @@ class AutoCounterViewModel: ObservableObject {
             if filteredString != clickDisplayViewTextFieldCount {
                 clickDisplayViewTextFieldCount = filteredString
             }
-            if let seconds = Int(clickDisplayViewTextFieldCount) {
-                if seconds > 599 {
+            
+            if let count = Int(clickDisplayViewTextFieldCount) {
+                if count > 599 {
                     clickDisplayViewTextFieldCount = "599"
                 }
             }
@@ -118,9 +118,9 @@ class AutoCounterViewModel: ObservableObject {
             clickDisplayViewTextFieldSec = "0"
         }
         
-        clickDisplayViewTextFieldMin = "\(Int(clickDisplayViewTextFieldMin) ?? 0)"
-        clickDisplayViewTextFieldSec = "\(Int(clickDisplayViewTextFieldSec) ?? 0)"
-        clickDisplayViewTextFieldCount = "\(Int(clickDisplayViewTextFieldCount) ?? 0)"
+//        clickDisplayViewTextFieldMin = "\(Int(clickDisplayViewTextFieldMin) ?? 0)"
+//        clickDisplayViewTextFieldSec = "\(Int(clickDisplayViewTextFieldSec) ?? 0)"
+//        clickDisplayViewTextFieldCount = "\(Int(clickDisplayViewTextFieldCount) ?? 0)"
         
         guard let min = Int(clickDisplayViewTextFieldMin),
               let sec = Int(clickDisplayViewTextFieldSec),

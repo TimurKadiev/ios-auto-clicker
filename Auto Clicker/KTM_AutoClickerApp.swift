@@ -15,6 +15,7 @@ struct KTM_AutoClickerApp: App {
         WindowGroup {
             AutoClickerTabView()
                 .environmentObject(AutoClickViewModel())
+                .environmentObject(AutoCounterViewModel())
                 .preferredColorScheme(.light)
                 .onAppear {
                     showAlert = !InternetManager_KTM.shared.checkInternetConnectivity_KTM()

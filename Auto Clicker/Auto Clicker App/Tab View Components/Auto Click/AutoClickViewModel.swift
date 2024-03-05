@@ -100,7 +100,6 @@ class AutoClickViewModel: ObservableObject {
                     clickDisplayViewTextFieldMin = "59"
                 }
             }
-        
         }
     }
     @Published var clickDisplayViewTextFieldSec = "1" {

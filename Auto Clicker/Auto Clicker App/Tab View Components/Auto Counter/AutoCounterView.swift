@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AutoCounterViewKTM: View {
-    @StateObject var viewModel = AutoCounterViewModel()
+    @EnvironmentObject var viewModel: AutoCounterViewModel
     var body: some View {
         ZStack {
             colorScheme
@@ -16,9 +16,9 @@ struct AutoCounterViewKTM: View {
             VStack {
                 heder
                     .padding(.top, Device_KTM.iPhone ? 20 : 41)
-                
+                Text(viewModel.clickDisplayViewTextFieldCount)
                 Spacer()
-                
+               
                 ClickDisplayView(
                     textFieldMin: $viewModel.clickDisplayViewTextFieldMin,
                     textFieldSec: $viewModel.clickDisplayViewTextFieldSec,
@@ -28,18 +28,17 @@ struct AutoCounterViewKTM: View {
                     focusedCount: $viewModel.focusedCount,
                     startClic: $viewModel.startClick,
                     clickCounts: $viewModel.clickCounts,
-                    isRefresh: false,
-                    action: {
+                    isRefresh: false) {
                         viewModel.startClick.toggle()
                         viewModel.startStopClick()
-                    }, closeAction: { }
-                )
-                .padding(.horizontal, Device_KTM.iPhone ? 14 : 28)
-                .frame(width: Device_KTM.iPhone ? ScreenSize_KTM.KTM_width - 48 : ScreenSize_KTM.KTM_width * 0.8)
-                .background(viewModel.focusedMin || viewModel.focusedSec || viewModel.focusedCount ? Color.white.opacity(0.2).cornerRadius(Device_KTM.iPhone ? 20 : 40) : Color.white.cornerRadius(Device_KTM.iPhone ? 20 : 40))
-                .shadow(color: .shadowColor, radius: 12)
-                .padding(.top, -100)
-            
+                    } closeAction: { }
+                
+                    .padding(.horizontal, Device_KTM.iPhone ? 14 : 28)
+                    .frame(width: Device_KTM.iPhone ? ScreenSize_KTM.KTM_width - 48 : ScreenSize_KTM.KTM_width * 0.8)
+                    .background(viewModel.focusedMin || viewModel.focusedSec || viewModel.focusedCount ? Color.white.opacity(0.2).cornerRadius(Device_KTM.iPhone ? 20 : 40) : Color.white.cornerRadius(Device_KTM.iPhone ? 20 : 40))
+                    .shadow(color: .shadowColor, radius: 12)
+                    .padding(.top, -100)
+                
                 Spacer()
             }
             .alert(isPresented: $viewModel.showAlert) {
@@ -77,7 +76,7 @@ struct AutoCounterView_Previews: PreviewProvider {
 
 
 extension AutoCounterViewKTM {
-   @ViewBuilder private var colorScheme: some View {
+    @ViewBuilder private var colorScheme: some View {
         if viewModel.focusedMin || viewModel.focusedSec || viewModel.focusedCount  {
             Color.black.opacity(0.4)
                 .ignoresSafeArea()

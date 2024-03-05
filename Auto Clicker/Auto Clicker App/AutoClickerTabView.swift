@@ -10,6 +10,7 @@ import SwiftUI
 struct AutoClickerTabView: View {
     @EnvironmentObject var appViewModel: AutoClickViewModel
     @StateObject var viewModel = AutoClickerTabViewModel()
+    @EnvironmentObject var vm: AutoCounterViewModel
 
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -20,7 +21,7 @@ struct AutoClickerTabView: View {
                     .tag(AutoClickerTabViewComponets.autoScroll)
                 AutoCounterViewKTM()
                     .tag(AutoClickerTabViewComponets.autoCounter)
-                
+                    
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
             
